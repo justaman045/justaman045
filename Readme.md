@@ -1,7 +1,7 @@
 
 Hey I am Alex Mercer 👋
 
-🔭 I’m currently working on Learning New Skill set and Languages.
+🔭 I’m currently working on Learning New Skill set and Languages.<br>
 🌱 I’m currently learning JavaScript and Flutter
 👯 I’m looking to collab with someone for New Projects.
 🤔 I’m looking for help with Django
