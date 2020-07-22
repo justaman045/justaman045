@@ -6,7 +6,7 @@ Apart from having the super-power of sitting on a desk and code for more than 24
 
 ## 👯 Communities
 - Owner of [Shay Tweeter](https://twitter.com/shaytweeter) (A web Place where EveryOne can discuss its Problem with me and get his tweets Re-tweeted)
-- Dev Community [member](//dev.to/alexmercerr07) (A Platform to discuss about Tech)
+- Dev Community [member](//dev.to/coderaman07) (A Platform to discuss about Tech)
 
 ## ⚡ Technologies
 Talk to me about
@@ -17,7 +17,7 @@ Talk to me about
 - Serverless Applications
 
 ## 📫 Contact Me
-- Twitter - [@alexmercerr07](https://twitter.com/coderaman07)
+- Twitter - [@coderaman07](https://twitter.com/coderaman07)
 - LinkedIn - [Aman Ojha](https://in.linkedin.com/in/amanojha)
 - Blog - [For Developers](https://amanojha.codes)
 - Dev - [coderaman07](https://dev.to/coderaman07)
