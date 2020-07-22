@@ -17,8 +17,11 @@ Talk to me about
 - Serverless Applications
 
 ## 📫 Contact Me
-- Twitter - [@alexmercerr07](https://twitter.com/alexmercerr07)
+- Twitter - [@alexmercerr07](https://twitter.com/coderaman07)
 - LinkedIn - [Aman Ojha](https://in.linkedin.com/in/amanojha)
 - Blog - [For Developers](https://amanojha.codes)
-- Dev - [alexmercerr07](https://dev.to/alexmercerr07)
+- Dev - [coderaman07](https://dev.to/coderaman07)
 - InstaGram - [@aman_.dev](//instagram.com/aman_.dev)
+- My Website - [https://amanojha.me](//amanojha.me)
+- My Blogs - [Blogs](//amanojha.me/blogs)
+- My Website with Python(Flask) - [Aman Ojha](//amanojha.pythonanywhere.com)
