@@ -18,7 +18,7 @@ Talk to me about
 
 ## 📫 Contact Me
 - Twitter - [@coderaman07](https://twitter.com/coderaman07)
-- LinkedIn - [Aman Ojha](https://in.linkedin.com/in/amanojha)
+- LinkedIn - [Aman Ojha](https://in.linkedin.com/in/coderaman07)
 - Blog - [For Developers](https://amanojha.codes)
 - Dev - [coderaman07](https://dev.to/coderaman07)
 - InstaGram - [@aman_.dev](//instagram.com/aman_.dev)
