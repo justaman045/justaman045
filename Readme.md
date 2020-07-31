@@ -11,7 +11,7 @@ Apart from having the super-power of sitting on a desk and code for more than 24
 ## ⚡ Technologies
 Talk to me about
 - Front-end development using **HTML, CSS, JavaScript, React**
-- Backend development using **Flask, Dhango, PHP**
+- Backend development using **Flask, Django, PHP**
 - Desktop application development using **Python, C#**
 - Mobile application development using **Android (Kotlin), Xamarin Android / Xamarin iOS, React Native**
 - Serverless Applications
