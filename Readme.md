@@ -25,5 +25,6 @@ Talk to me about
 - My Website - [https://amanojha.me](//amanojha.me)
 - My Blogs - [Blogs](//amanojha.me/blogs)
 - My Website with Python(Flask) - [Aman Ojha](//amanojha.pythonanywhere.com)
+- My Personal E - Commerce Website built with Django - [RushX](https://rushx.pythonanywhere.com)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coderaman07)
