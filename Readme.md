@@ -7,14 +7,15 @@ Apart from having the super-power of sitting on a desk and code for more than 24
 ## 👯 Communities
 - Owner of [Shay Tweeter](https://twitter.com/shaytweeter) (A web Place where EveryOne can discuss its Problem with me and get his tweets Re-tweeted)
 - Dev Community [member](//dev.to/coderaman07) (A Platform to discuss about Tech)
+- Google Developer
 
 ## ⚡ Technologies
 Talk to me about
-- Front-end development using **HTML, CSS, JavaScript, React**
+- Front-end development using **HTML, CSS, JavaScript, ReactJs**
 - Backend development using **Flask, Django, PHP**
-- Desktop application development using **Python, C#**
-- Mobile application development using **Android (Kotlin), Xamarin Android / Xamarin iOS, React Native**
-- Serverless Applications
+- Desktop application development using **Python, C#, Java**
+- Mobile application development using **Android (Java) , Flutter ( Android / IOS )**
+- Game Developement **Unity Engine**
 
 ## 📫 Contact Me
 - Twitter - [@coderaman07](https://twitter.com/coderaman07)
