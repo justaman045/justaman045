@@ -19,12 +19,9 @@ Talk to me about
 ## 📫 Contact Me
 - Twitter - [@coderaman07](https://twitter.com/coderaman07)
 - LinkedIn - [Aman Ojha](https://in.linkedin.com/in/coderaman07)
-- Blog - [For Developers](https://amanojha.codes)
 - Dev - [coderaman07](https://dev.to/coderaman07)
 - InstaGram - [@aman_.dev](//instagram.com/aman_.dev)
-- My Website - [https://amanojha.me](//amanojha.me)
-- My Blogs - [Blogs](//amanojha.me/blogs)
+- My Blogs - [Blogs](//amanojha.codes)
 - My Website with Python(Flask) - [Aman Ojha](//amanojha.pythonanywhere.com)
 - My Personal E - Commerce Website built with Django - [RushX](https://rushx.pythonanywhere.com)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=coderaman07)
