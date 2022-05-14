@@ -48,7 +48,7 @@
 <!-- BLOG-POST-LIST:END -->
 ➡️ [more blog posts...](https://www.codeitdown.ml/)
 </td>
-<td valign="top" width="0%">
+<!-- <td valign="top" width="0%"> -->
 
 <!-- ### My Latest YouTube Videos 🌱 -->
 <!-- YOUTUBE:START -->
