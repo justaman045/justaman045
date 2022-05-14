@@ -2,7 +2,7 @@
 [<img height="30" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
 [<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
 
-![Image](https://avatars.githubusercontent.com/u/54279831?v=4) 
+<!-- ![Image](https://avatars.githubusercontent.com/u/54279831?v=4)  -->
 
 
 ### My Tech Toolbox 🧰 
