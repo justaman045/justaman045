@@ -40,11 +40,9 @@
 
 ### My Latest Blog Posts 🌱
 <!-- BLOG-POST-LIST:START -->
-- [Things I'll be focusing on in 2022](https://codeitdown.ml/posts/Things-I'll-be-focusing-on-in-2022)
-- [An Overview and Setup of TypeScript as a Complete Beginner](https://codeitdown.ml/posts/An-Overview-and-Setup-of-TypeScript-as-a-Complete-Beginner)
-- [Carrier Paths for Wanna be Developers](https://codeitdown.ml/posts/Carrier-Paths-for-Wanna-be-Developers)
-- [Best Operating System for Programming](https://codeitdown.ml/posts/Best-Operating-System-for-Programming)
-- [Getting Started with Programming](https://codeitdown.ml/posts/Getting-Started-with-Programming)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
+- [Best Operating System for Programming](https://coderaman07.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
+- [Getting Started with Programming](https://coderaman07.medium.com/getting-started-with-programming-3e8dd307c4b9?source=rss-12d1cfcdedf4------2)
 <!-- BLOG-POST-LIST:END -->
 ➡️ [more blog posts...](https://www.codeitdown.ml/)
 </td>
