@@ -36,12 +36,13 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://codepen.io/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="coderaman07" height="30" width="40" /></a>
-<a href="https://dev.to/coderaman07" target="blank"><img align="center" src="https://res.cloudinary.com/practicaldev/image/fetch/s--R9qwOwpC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/78hs31fax49uwy6kbxyw.png" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://dev.to/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="coderaman07" height="30" width="40" /></a>
 <a href="https://twitter.com/BugsOverflow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="coderaman07" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="coderaman07" height="30" width="40" /></a>
 <a href="https://instagram.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman07" height="30" width="40" /></a>
 <a href="https://medium.com/@coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@coderaman07" height="30" width="40" /></a>
+<a href="https://github.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@coderaman07" height="30" width="40" /></a>
+<a href="https://twitch.com/bugsoverflow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitch.svg" alt="@bugsoverflow" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
