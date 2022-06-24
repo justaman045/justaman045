@@ -24,11 +24,11 @@
 
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
-- [Connect your Chatwoot to Netlify integration in 10 minutes](https://dev.to/coderaman07/connect-your-chatwoot-to-netlify-integration-in-10-minutes-310l)
-- [How my 22 month developer experience at Amdocs shaped my career?](https://medium.com/geekculture/how-my-22-month-developer-experience-at-amdocs-shaped-my-career-77697802a1a2?source=rss-5c8e98221095------2)
-- [Connect your Chatwoot to Netlify integration in 10 minutes](https://medium.com/geekculture/connect-your-chatwoot-to-netlify-integration-in-10-minutes-f75d01a29a73?source=rss-5c8e98221095------2)
-- [SAP Testing Best Practices](https://medium.com/geekculture/sap-testing-best-practices-e4ead283bff9?source=rss-5c8e98221095------2)
-- [Using MDX with Docz Has Never Been This Easy!](https://dev.to/coderaman07/using-mdx-with-docz-has-never-been-this-easy-19b2)
+- [Things I&#39;ll be focusing on in 2022](https://dev.to/coderaman07/things-ill-be-focusing-on-in-2022-18f6)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/coderaman07/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
+- [Best Operating System for Programming](https://coderaman07.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
+- [Getting Started with Programming](https://coderaman07.medium.com/getting-started-with-programming-3e8dd307c4b9?source=rss-12d1cfcdedf4------2)
 <!-- BLOG-POST-LIST:END -->
 
 ### What can I help with:question::cyclone:
