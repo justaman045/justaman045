@@ -5,7 +5,7 @@
 
 <span align="left"> <a href="https://twitter.com/BugsOverflow" target="blank"><img src="https://img.shields.io/twitter/follow/BugsOverflow?logo=twitter&style=for-the-badge" alt="coderaman07" /></a> </span>
 
-<!-- ### Liked my GitHub:question::point_right: [Sponsor me a Dollar](https://t.co/z1ya8nt5mT?amp=1) 💰 💵 :sparkles: -->
+<!-- ### Liked my GitHub:question::point_right: [Sponsor me a Dollar]() 💰 💵 :sparkles: -->
 
 - 👨‍💻 All about me is at [My Website](https://amanojha.ml/)
 
