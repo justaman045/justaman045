@@ -1,80 +1,84 @@
-# [Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> I am Aman Ojha](https://amanojha.ml/)
-[<img height="30" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
-[<img height="30" src="https://img.shields.io/badge/linkedin-blue.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][LinkedIn]
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> I'm Aman Ojha</h1>
+<h3 align="center">git commit -m "Hello, I'm a Operations Executive at Infosys"</h3>
 
-<!-- ![Image](https://avatars.githubusercontent.com/u/54279831?v=4)  -->
+<span align="left"> <img src="https://komarev.com/ghpvc/?username=coderaman07&label=Profile%20views&color=0e75b6&style=flat" alt="coderaman07" /> </span>
 
+<span align="left"> <a href="https://twitter.com/BugsOverflow" target="blank"><img src="https://img.shields.io/twitter/follow/BugsOverflow?logo=twitter&style=for-the-badge" alt="coderaman07" /></a> </span>
 
-### My Tech Toolbox 🧰 
+### Liked my GitHub:question::point_right: [Sponsor me a Dollar](https://t.co/z1ya8nt5mT?amp=1) 💰 💵 :sparkles:
 
+- 👨‍💻 All about me is at [My Website](https://amanojha.ml/)
+
+- 📝 Sometimes I write articles on [Code It Down](https://codeitdown.ml/)
+
+- 💬 Ask me about `` var topics = [ "C++", "Python", "Java", "Dart", "Golang" ] ``
+
+- 📫 How to reach me **bugsoverflow@gmail.com**
+
+- 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/17rfSZVazjPQr4kybUaW1OLf1bC0zqwGm/view?usp=sharing)
+
+### What are my featured projects:question::rocket:
+<code>[Auto Poster](https://github.com/coderaman07/Auto-Poster)</code>:hourglass:     
+<code>[Portfolio](https://github.com/coderaman07/portfolio)</code>:mask:  
+<code>[Code It Down](https://github.com/coderaman07/codeitdown)</code>:robot:     
+
+### Wanna see my blogs:question::fire:
+<!-- BLOG-POST-LIST:START -->
+- [Connect your Chatwoot to Netlify integration in 10 minutes](https://dev.to/coderaman07/connect-your-chatwoot-to-netlify-integration-in-10-minutes-310l)
+- [How my 22 month developer experience at Amdocs shaped my career?](https://medium.com/geekculture/how-my-22-month-developer-experience-at-amdocs-shaped-my-career-77697802a1a2?source=rss-5c8e98221095------2)
+- [Connect your Chatwoot to Netlify integration in 10 minutes](https://medium.com/geekculture/connect-your-chatwoot-to-netlify-integration-in-10-minutes-f75d01a29a73?source=rss-5c8e98221095------2)
+- [SAP Testing Best Practices](https://medium.com/geekculture/sap-testing-best-practices-e4ead283bff9?source=rss-5c8e98221095------2)
+- [Using MDX with Docz Has Never Been This Easy!](https://dev.to/coderaman07/using-mdx-with-docz-has-never-been-this-easy-19b2)
+<!-- BLOG-POST-LIST:END -->
+
+### What can I help with:question::cyclone:
+<code>git commit -m "All about Python, JavaScript, Data Structues, Cpp, Projects!"</code> :grin:
+
+<h3 align="left">Connect with me:</h3>
 <p align="left">
-<img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png" alt="python" width="40" height="40"/> 
-<img src="https://camo.githubusercontent.com/92ec9eb7eeab7db4f5919e3205918918c42e6772562afb4112a2909c1aaaa875/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313630373535343338352f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6c6f676f2e706e67" alt="Next.js" width="40" height="40"/> 
-<img src="https://yt3.ggpht.com/ytc/AKedOLRt1d4p7bPylasq_66BIC8-k3hkyVjJ2JICQITK=s176-c-k-c0x00ffffff-no-rj" alt="Flutter" width="40" height="40"/> 
-<img src="https://miro.medium.com/max/1000/1*Aih9FwHjvM6AEL1aBh6W2g.png" alt="JavaScript" width="40" height="40"/> 
-<img src="https://www.sonarqube.org/features/multi-languages/index/java-color.svg" alt="Java" width="40" height="40"/> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/330px-React-icon.svg.png" alt="React.js" width="40" height="40"/> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="html5" height="40"/> 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css3" height="40"/> 
-<img src="https://i.pinimg.com/originals/99/f8/87/99f887833c475448723d3c9ac16c179b.png" alt="C++" width="40" height="40"/> 
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-<img src="https://i.pinimg.com/originals/50/f1/58/50f1582a95bdac10f1c3fa295c8b947b.png" alt="mysql" width="40" height="40"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" alt="PostGreSQL" width="40" height="40"/>
+<a href="https://codepen.io/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://dev.to/coderaman07" target="blank"><img align="center" src="https://res.cloudinary.com/practicaldev/image/fetch/s--R9qwOwpC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/78hs31fax49uwy6kbxyw.png" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://twitter.com/BugsOverflow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://instagram.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman07" height="30" width="40" /></a>
+<a href="https://medium.com/@coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@coderaman07" height="30" width="40" /></a>
 </p>
 
- 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
+ <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+ <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a>
+ <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
+ <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+  <a href="https://flutter.dev/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-plain.svg" alt="Flutter" width="40" height="40"/> </a>
+ <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="gatsby" width="40" height="40"/> </a>
+ <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+ <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a>
+  <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> 
+   <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a>
+   <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> 
+   <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
+   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://ubuntu.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://tomcat.apache.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tomcat/tomcat-line-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://docs.soliditylang.org/en/v0.8.15/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.github.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://flask.palletsprojects.com/en/2.1.x/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg" alt="python" width="40" height="40"/> </a>
+   
+</p>
 
-* My primary coding language: Python
-* My Favorite Coding Framework : Flutter
-* Passionate for learning & exploring new Tech. I write Tech Blogs on [Code it Down](https://codeitdown.ml/).
-* Join my [Discord server](https://discord.gg/5vCKrcZW) | [Telegram Channel](https://t.me/thebravegamer).
-<!--* If you play Call of Duty- add me: { toBeAddedLater }-->
-* I am currently learning AWS
-* Ask me about anything, I'll be happy to help.
-<!-- -->
-* I'm looking to collaborate on [Auto Poster](https://github.com/coderaman07/Auto-Poster.git). More Details?? [Visit this link to know more about this project](https://projektnotify.pythonanywhere.com).
-
----
-
-<table><tr><td valign="top" width="100%">
-
-### My Latest Blog Posts 🌱
-<!-- BLOG-POST-LIST:START -->
-- [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
-- [Best Operating System for Programming](https://coderaman07.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
-- [Getting Started with Programming](https://coderaman07.medium.com/getting-started-with-programming-3e8dd307c4b9?source=rss-12d1cfcdedf4------2)
-<!-- BLOG-POST-LIST:END -->
-➡️ [more blog posts...](https://www.codeitdown.ml/)
-</td>
-<!-- <td valign="top" width="0%"> -->
-
-<!-- ### My Latest YouTube Videos 🌱 -->
-<!-- YOUTUBE:START -->
-<!-- - [Beginner's guide to Hacktoberfest 2021 ](https://www.youtube.com/watch?v=xBPFzXa9Fio)
-- [What is Hacktoberfest? Hacktoberfest 101](https://www.youtube.com/watch?v=N7mCkGjX6vk)
-- [GitHub Copilot: All you need to know ](https://www.youtube.com/watch?v=RZmp6IPN0xw)
-- [What is an API ? API for beginners ](https://www.youtube.com/watch?v=NHVQiDDZ5TA)
-- [71A Way too long words ](https://www.youtube.com/watch?v=hYIzUt9mvRQ) -->
-<!-- YOUTUBE:END -->
-<!-- ➡️ [more videos...](https://www.youtube.com/c/AyushiRawat) -->
-</td>
-
- <details>
-<summary>📊 Github Stats</summary>
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=coderaman07&show_icons=true&theme=gotham" alt="Aman | Stats" />
-
-</details>
-
-
- ![Visitor Count](https://profile-counter.glitch.me/{coderaman07}/count.svg)
-
-
-[twitter]: https://twitter.com/coderaman07
-[Blog]: https://devlog.ml
-[gmail]: https://coderaman07@gmail.com
-[linkedin]: https://www.linkedin.com/in/coderaman07/
-[Medium]: https://medium.com/@coderaman07
-[Facebook]: https://www.facebook.com/coderaman07
-
-<h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
