@@ -24,9 +24,9 @@
 
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
-- [Things I&#39;ll be focusing on in 2022](https://dev.to/bugsoverflow/things-ill-be-focusing-on-in-2022-18f6)
+- [Things I&#39;ll be focusing on in 2022](https://dev.to/coderaman07/things-ill-be-focusing-on-in-2022-18f6)
 - [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
-- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/bugsoverflow/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/coderaman07/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
 - [Best Operating System for Programming](https://coderaman07.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
 - [Getting Started with Programming](https://coderaman07.medium.com/getting-started-with-programming-3e8dd307c4b9?source=rss-12d1cfcdedf4------2)
 <!-- BLOG-POST-LIST:END -->
