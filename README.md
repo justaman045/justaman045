@@ -1,9 +1,9 @@
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px"> I'm Aman Ojha</h1>
 <h3 align="center">git commit -m "Hello, I'm a Operations Executive at Infosys"</h3>
 
-<span align="left"> <img src="https://komarev.com/ghpvc/?username=coderaman07&label=Profile%20views&color=0e75b6&style=flat" alt="coderaman07" /> </span>
+<span align="left"> <img src="https://komarev.com/ghpvc/?username=coderaman7&label=Profile%20views&color=0e75b6&style=flat" alt="coderaman7" /> </span>
 
-<span align="left"> <a href="https://twitter.com/coderaman07" target="blank"><img src="https://img.shields.io/twitter/follow/coderaman07?logo=twitter&style=for-the-badge" alt="coderaman07" /></a> </span>
+<span align="left"> <a href="https://twitter.com/coderaman7" target="blank"><img src="https://img.shields.io/twitter/follow/coderaman7?logo=twitter&style=for-the-badge" alt="coderaman7" /></a> </span>
 
 <!-- ### Liked my GitHub:question::point_right: [Sponsor me a Dollar]() 💰 💵 :sparkles: -->
 
@@ -15,22 +15,22 @@
 
 - 📫 How to reach me **bugsoverflow@gmail.com**
 
-- Join my Discord Server - [coderaman07](https://discord.gg/XUKRuACXNv)
+- Join my Discord Server - [coderaman7](https://discord.gg/XUKRuACXNv)
 
 - 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/17rfSZVazjPQr4kybUaW1OLf1bC0zqwGm/view?usp=sharing)
 
 ### What are my featured projects:question::rocket:
-<code>[Auto Poster](https://github.com/coderaman07/Auto-Poster)</code>:hourglass:     
-<code>[Portfolio](https://github.com/coderaman07/portfolio)</code>:mask:  
-<code>[Code It Down](https://github.com/coderaman07/codeitdown)</code>:robot:     
+<code>[Auto Poster](https://github.com/coderaman7/Auto-Poster)</code>:hourglass:     
+<code>[Portfolio](https://github.com/coderaman7/portfolio)</code>:mask:  
+<code>[Code It Down](https://github.com/coderaman7/codeitdown)</code>:robot:     
 
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
-- [5 Habits of a Good Programmer](https://coderaman07.medium.com/5-habits-of-a-good-programmer-333443502b2d?source=rss-12d1cfcdedf4------2)
-- [5 Habits of a Good Programmer](https://dev.to/coderaman07/5-habits-of-a-good-programmer-1ii9)
-- [Things I&#39;ll be focusing on in 2022](https://dev.to/coderaman07/things-ill-be-focusing-on-in-2022-18f6)
+- [5 Habits of a Good Programmer](https://coderaman7.medium.com/5-habits-of-a-good-programmer-333443502b2d?source=rss-12d1cfcdedf4------2)
+- [5 Habits of a Good Programmer](https://dev.to/coderaman7/5-habits-of-a-good-programmer-1ii9)
+- [Things I&#39;ll be focusing on in 2022](https://dev.to/coderaman7/things-ill-be-focusing-on-in-2022-18f6)
 - [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
-- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/coderaman07/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/coderaman7/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
 <!-- BLOG-POST-LIST:END -->
 
 ### What can I help with:question::cyclone:
@@ -38,12 +38,12 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://dev.to/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="coderaman07" height="30" width="40" /></a>
-<a href="https://twitter.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="coderaman07" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="coderaman07" height="30" width="40" /></a>
-<a href="https://instagram.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman07" height="30" width="40" /></a>
-<a href="https://medium.com/@coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@coderaman07" height="30" width="40" /></a>
-<a href="https://github.com/coderaman07" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@coderaman07" height="30" width="40" /></a>
+<a href="https://dev.to/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="coderaman7" height="30" width="40" /></a>
+<a href="https://twitter.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="coderaman7" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="coderaman7" height="30" width="40" /></a>
+<a href="https://instagram.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman7" height="30" width="40" /></a>
+<a href="https://medium.com/@coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@coderaman7" height="30" width="40" /></a>
+<a href="https://github.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@coderaman7" height="30" width="40" /></a>
 <a href="https://twitch.com/bugsoverflow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitch.svg" alt="@bugsoverflow" height="30" width="40" /></a>
 </p>
 
