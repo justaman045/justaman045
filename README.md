@@ -27,10 +27,9 @@
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
 - [5 Habits of a Good Programmer](https://coderaman7.medium.com/5-habits-of-a-good-programmer-333443502b2d?source=rss-12d1cfcdedf4------2)
-- [5 Habits of a Good Programmer](https://dev.to/coderaman7/5-habits-of-a-good-programmer-1ii9)
-- [Things I&#39;ll be focusing on in 2022](https://dev.to/coderaman7/things-ill-be-focusing-on-in-2022-18f6)
 - [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
-- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/coderaman7/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
+- [Best Operating System for Programming](https://coderaman7.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
+- [Getting Started with Programming](https://coderaman7.medium.com/getting-started-with-programming-3e8dd307c4b9?source=rss-12d1cfcdedf4------2)
 <!-- BLOG-POST-LIST:END -->
 
 ### What can I help with:question::cyclone:
