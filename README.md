@@ -26,6 +26,7 @@
 
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
+- [Top 5 Linux Distributions to use as Your Virtual Machine](https://coderaman7.medium.com/top-5-linux-distributions-to-use-as-your-virtual-machine-fc60a3b902e2?source=rss-12d1cfcdedf4------2)
 - [5 Habits of a Good Programmer](https://coderaman7.medium.com/5-habits-of-a-good-programmer-333443502b2d?source=rss-12d1cfcdedf4------2)
 - [An Overview and Setup of TypeScript as a Complete Beginner](https://medium.com/geekculture/an-overview-and-setup-of-typescript-as-a-complete-beginner-27a653bd96c4?source=rss-12d1cfcdedf4------2)
 - [Best Operating System for Programming](https://coderaman7.medium.com/best-operating-system-for-programming-7a86ea347ed8?source=rss-12d1cfcdedf4------2)
