@@ -7,7 +7,7 @@
 
 <!-- ### Liked my GitHub:question::point_right: [Sponsor me a Dollar]() 💰 💵 :sparkles: -->
 
-- 👨‍💻 All about me is at [My Website](https://amanojha.vercel.app/)
+- 👨‍💻 All about me is at [My Website](https://coderaman7.vercel.app/)
 
 - 📝 Sometimes I write articles on [Code It Down](https://codeitdown.vercel.app/)
 
@@ -17,7 +17,7 @@
 
 - Join my Discord Server - [coderaman7](https://discord.gg/XUKRuACXNv)
 
-- 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/17rfSZVazjPQr4kybUaW1OLf1bC0zqwGm/view?usp=sharing)
+- 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/1CSjXLMCaTUin2bMASpBbAFtnnJdVjbUU/view?usp=sharing)
 
 ### What are my featured projects:question::rocket:
 <code>[Auto Poster](https://github.com/coderaman7/Auto-Poster)</code>:hourglass:     
@@ -41,7 +41,7 @@
 <a href="https://dev.to/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="coderaman7" height="30" width="40" /></a>
 <a href="https://twitter.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="coderaman7" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="coderaman7" height="30" width="40" /></a>
-<a href="https://instagram.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman7" height="30" width="40" /></a>
+<a href="https://instagram.com/bugs_overflow" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="coderaman7" height="30" width="40" /></a>
 <a href="https://medium.com/@coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@coderaman7" height="30" width="40" /></a>
 <a href="https://github.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="@coderaman7" height="30" width="40" /></a>
 <a href="https://twitch.com/coderaman7" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitch.svg" alt="@coderaman7" height="30" width="40" /></a>
