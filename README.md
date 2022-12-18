@@ -5,13 +5,13 @@
 
 <span align="left"> <a href="https://twitter.com/coderaman7" target="blank"><img src="https://img.shields.io/twitter/follow/coderaman7?logo=twitter&style=for-the-badge" alt="coderaman7" /></a> </span>
 
-<!-- ### Liked my GitHub:question::point_right: [Sponsor me a Dollar]() 💰 💵 :sparkles: -->
+### Liked my GitHub:question: :point_right: [Sponsor me a Dollar](https://github.com/sponsors/coderaman7) 💰 💵 :sparkles:
 
 - 👨‍💻 All about me is at [My Website](https://coderaman7.vercel.app/)
 
-- 📝 Sometimes I write articles on [Code It Down](https://codeitdown.vercel.app/)
+- 📝 Sometimes I write articles on [My Personal Space on HashNode](https://coderaman7.hashnode.dev/)
 
-- 💬 Ask me about `` var topics = [ "C++", "Python", "Java", "Dart", "Golang" ] ``
+- 💬 Ask me about `` var topics = [ "C++", "Python", "Java", "Flutter", "Golang" ] ``
 
 - 📫 How to reach me **bugsoverflow@gmail.com**
 
@@ -20,6 +20,7 @@
 - 📄 Know about my work & experiences [My Resume](https://drive.google.com/file/d/1CSjXLMCaTUin2bMASpBbAFtnnJdVjbUU/view?usp=sharing)
 
 ### What are my featured projects:question::rocket:
+<code>[Portfolio v2](https://github.com/coderaman7/Portfolio-v2)</code>  
 <code>[Auto Poster](https://github.com/coderaman7/Auto-Poster)</code>:hourglass:     
 <code>[Portfolio](https://github.com/coderaman7/portfolio)</code>:mask:  
 <code>[Code It Down](https://github.com/coderaman7/codeitdown)</code>:robot:     
