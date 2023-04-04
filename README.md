@@ -27,11 +27,11 @@
 
 ### Wanna see my blogs:question::fire:
 <!-- BLOG-POST-LIST:START -->
+- [Goals for 2023](https://coderaman7.hashnode.dev/goals-for-2023)
 - [Top 5 Linux Distributions to use as Your Virtual Machine](https://coderaman7.hashnode.dev/top-5-linux-distributions-to-use-as-your-virtual-machine)
 - [5 Habits of a Good Programmer](https://coderaman7.hashnode.dev/5-habits-of-a-good-programmer)
 - [Things I&#39;ll be focusing on in 2022](https://coderaman7.hashnode.dev/things-ill-be-focusing-on-in-2022)
 - [An Overview and Setup of TypeScript as a Complete Beginner](https://coderaman7.hashnode.dev/an-overview-and-setup-of-typescript-as-a-complete-beginner)
-- [Best Operating System for Programming](https://coderaman7.hashnode.dev/best-operating-system-for-programming)
 <!-- BLOG-POST-LIST:END -->
 
 ### What can I help with:question::cyclone:
