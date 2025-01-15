@@ -2,16 +2,13 @@
 
 ###
 
-<br clear="both">
-
-<h4 align="left">🔭 I’m currently working on my Skills to become a Better Django Developer.<br>🌱 I’m currently learning more about Fullstack Web development<br>💬 Ask me about any tech-related stuff.<br>📫 How to reach me: Email - workamanojha30@gmail.com<br>⚡ Fun fact: Spaces are better than tabs</h4>
-
-###
-
-<br clear="both">
-
-<div align="right">
-  <img height="200" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXV0OHQ5M2xwdjAwa2g0dmp6MWZkbWRrczEwdjVvYzhtZG44eDF1eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3rgXBQGpY76RY5eFjy/giphy.gif"  />
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1;"> 
+    <p align="left">🔭 I’m currently working on my Skills to become a Better Django Developer.<br>🌱 I’m currently learning more about Fullstack Web development<br>💬 Ask me about any tech-related stuff.<br>📫 How to reach me: Email - workamanojha30@gmail.com<br>⚡ Fun fact: Spaces are better than tabs</p>
+  </div>
+  <div style="flex: 1; text-align: right;"> 
+    <img height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXV0OHQ5M2xwdjAwa2g0dmp6MWZkbWRrczEwdjVvYzhtZG44eDF1eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3rgXBQGpY76RY5eFjy/giphy.gif" />
+  </div>
 </div>
 
 ###
@@ -99,13 +96,27 @@
 ###
 
 <div align="left">
-  <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="devto logo"  />
-  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="hackerrank logo"  />
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="medium logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+  <a href="https://dev.to/justaman045" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=dev.to&logo=dev.to&label=&color=0A0A0A&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="devto logo"  />
+  </a>
+  <a href="mailto:workamanojha30@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+  <a href="https://www.hackerrank.com/profile/coderaman7" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=HackerRank&logo=hackerrank&label=&color=2EC866&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="hackerrank logo"  />
+  </a>
+  <a href="https://instagram.com/justaman045" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
+  </a>
+  <a href="https://linkedin.com/in/justaman045" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+  </a>
+  <a href="https://justaman045.medium.com/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Medium&logo=medium&label=&color=12100E&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="medium logo"  />
+  </a>
+  <a href="https://twitter.com/justaman045" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+  </a>
 </div>
 
 ###
