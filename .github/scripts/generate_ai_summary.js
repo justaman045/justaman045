@@ -34,8 +34,8 @@ async function getRecentGithubActivity(token) {
     const headers = { 'User-Agent': 'node.js' };
     if (token) headers['Authorization'] = `token ${token}`;
 
-    // Fetch events
-    const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/events/public`, { headers });
+    // Fetch events (Using /events instead of /events/public to include private repos if token has scope)
+    const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/events`, { headers });
     if (!response.ok) return [];
 
     const events = await response.json();
@@ -180,14 +180,15 @@ async function main() {
         }
 
         console.log('Fetching activity...');
-        const githubActivity = await getRecentGithubActivity(process.env.GITHUB_TOKEN);
+        const token = process.env.GH_PAT || process.env.GITHUB_TOKEN;
+        const githubActivity = await getRecentGithubActivity(token);
         const blogActivity = await getRecentBlogPosts();
 
         const activityLog = [...githubActivity, ...blogActivity];
         console.log('Activity Log:', activityLog);
 
         console.log('Fetching last active repo...');
-        const lastRepo = await getLastActiveRepo(process.env.GITHUB_TOKEN);
+        const lastRepo = await getLastActiveRepo(token);
         console.log('Last Active Repo:', lastRepo);
 
         const summary = await generateSummary(activityLog, lastRepo);
@@ -204,7 +205,7 @@ async function main() {
         const endMarker = '<!-- AI-SUMMARY:END -->';
 
         // Formatted Markdown Section
-        const newSection = `${startMarker}\n> 🤖 **Daily AI Summary:** ${summary}\n${endMarker}`;
+        const newSection = `${startMarker}\n> 🤖 **Daily Summary:** ${summary}\n${endMarker}`;
 
         const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
         if (readmeContent.match(regex)) {
