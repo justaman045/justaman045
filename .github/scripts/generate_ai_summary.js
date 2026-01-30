@@ -108,7 +108,8 @@ async function generateSummary(activityLog, lastRepo) {
     const profileContext = `
     PROFILE CONTEXT:
     - Current Role: QA Automation Engineer @ Infosys (since Oct 2021).
-    - Career Goal: Actively looking for Full Stack Developer roles.
+    - Career Goal: Seeking Senior QA Automation roles OR Full Stack Development positions (open to both).
+    - mindset: "Whichever opportunity offers better growth and pay." Open to learning any new skill.
     - Core Stack (QA): Java, Selenium, Maven, Rest Assured.
     - Dev Stack (Learning/Building): Python, Django, React, Next.js, Flutter.
     - Key Project: "ProjektNotify" (building in public).

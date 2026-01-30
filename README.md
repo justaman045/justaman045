@@ -23,8 +23,9 @@
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
 - **Current Learning:** ![Playwright](https://img.shields.io/badge/-Playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
-> 📢 **I am actively looking for new opportunities!**  
-> Open to roles in **QA Automation** or **Full Stack Development**.
+> 📢 **Actively looking for new opportunities!**  
+> Open to **Senior QA Automation** or **Full Stack Development** roles.  
+> *Focused on growth, better compensation, and challenging problems.*
 
 ---
 
