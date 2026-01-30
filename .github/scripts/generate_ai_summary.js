@@ -39,7 +39,7 @@ async function getRecentGithubActivity(token) {
     if (!response.ok) return [];
 
     const events = await response.json();
-    return events.slice(0, 10).map(e => {
+    return events.slice(0, 30).map(e => {
         if (e.type === 'PushEvent') {
             const commits = e.payload.commits || [];
             return `Pushed ${e.payload.size} commits to ${e.repo.name}: ${commits.map(c => c.message).join(', ')}`;
