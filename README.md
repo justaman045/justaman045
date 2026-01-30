@@ -75,6 +75,13 @@ I contribute to open source and build personal projects. Here are my top contrib
 ## 📊 Programming Stats
 
 <!--START_SECTION:waka-->
+
+```txt
+Total Time: 0 secs
+
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---
