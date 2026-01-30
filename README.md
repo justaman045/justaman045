@@ -75,8 +75,8 @@ I contribute to open source and build personal projects. Here are my top contrib
 
 ## 📊 Programming Stats
 
-<!-- Wakatime start -->
-<!-- Wakatime end -->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
