@@ -173,9 +173,12 @@ async function generateSummary(activityLog, lastRepo) {
         }
 
         const data = await response.json();
-        const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+        let rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
 
         if (!rawText) return null;
+
+        // Clean up Markdown code blocks if present (Gemini often adds them)
+        rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
 
         // Parse JSON
         return JSON.parse(rawText);
