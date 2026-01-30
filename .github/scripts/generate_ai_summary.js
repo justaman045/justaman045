@@ -105,20 +105,30 @@ async function generateSummary(activityLog, lastRepo) {
         return null; // Return null to skip update without error
     }
 
+    const profileContext = `
+    PROFILE CONTEXT:
+    - Current Role: QA Automation Engineer @ Infosys (since Oct 2021).
+    - Career Goal: Actively looking for Full Stack Developer roles.
+    - Core Stack (QA): Java, Selenium, Maven, Rest Assured.
+    - Dev Stack (Learning/Building): Python, Django, React, Next.js, Flutter.
+    - Key Project: "ProjektNotify" (building in public).
+    `;
+
     const prompt = `
-    You are a professional assistant for "${GITHUB_USERNAME}", a QA Automation Engineer and Aspiring Full Stack Developer.
+    You are writing the main "About Me" section for my GitHub Profile ("${GITHUB_USERNAME}").
     
-    Here is the recent activity (last 24-48 hours):
+    ${profileContext}
+
+    RECENT ACTIVITY (Last 48h):
     ${activityLog.join('\n')}
     
-    TASK: Write a very short, professional, and engaging daily summary (1-2 sentences max) in the first person ("I").
-    
-    RULES:
-    1. If there is RECENT activity in the log above, highlight it specificially.
-    2. If the log is EMPTY or has no significant activity, you MUST use this fallback pattern:
-       "Currently building ${lastRepo} and learning new skills on the way." (You can vary the wording slightly but keep the meaning: working on that repo + learning).
-    
-    Tone: Professional, enthusiastic, concise.
+    TASK: Write a dynamic, engaging, professional bio (2-3 sentences).
+    - Combine my PERMANENT identity (QA -> Aspiring Dev) with my RECENT activity.
+    - If I coded recently, highlight it: "Currently, I'm diving deep into [Repo Name]..."
+    - If I wrote a blog, mention it: "I also just explored [Topic] in my latest article..."
+    - If activity is low, focus on the mission: "I am an experienced QA Automation Engineer at Infosys, actively transitioning into Full Stack Development by building projects like ProjektNotify."
+    - TONE: Energetic, Professional, driven. First Person ("I").
+    - FORMAT: Plain text, no markdown headers, no "Daily Summary" labels.
     `;
 
     // Gemini API Payload
@@ -204,8 +214,8 @@ async function main() {
         const startMarker = '<!-- AI-SUMMARY:START -->';
         const endMarker = '<!-- AI-SUMMARY:END -->';
 
-        // Formatted Markdown Section
-        const newSection = `${startMarker}\n> 🤖 **Daily Summary:** ${summary}\n${endMarker}`;
+        // Formatted Markdown Section (Just the text, no blockquotes or labels for cleaner Resume look)
+        const newSection = `${startMarker}\n${summary}\n${endMarker}`;
 
         const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
         if (readmeContent.match(regex)) {
