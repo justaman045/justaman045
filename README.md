@@ -5,6 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
+I'm a driven QA Automation Engineer at Infosys, passionately committed to delivering robust software and continuously expanding my skillset. Currently, I'm diving deep into new development on the 'NextRound' project, actively pursuing opportunities in Senior QA Automation or Full Stack Development roles. My enthusiasm for learning new technologies is boundless, always seeking the next challenge for personal and professional growth.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -15,6 +16,9 @@
 *Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 5 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-007ACC?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-D4D8E2?style=for-the-badge&logo=appium&logoColor=darkgreen)
+- **Focus:** delivering high-quality software through automated testing and continuous integration.
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -56,17 +60,12 @@ I build cool things! Check out my upcoming projects and join the waitlist:
 I contribute to open source and build personal projects. Here are my top contributions:
 
 <!-- RECENT-REPOS:START -->
-<div align="center">
-  <a href="https://github.com/justaman045/ProjektNotify">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justaman045&repo=ProjektNotify&theme=github_dark" />
-  </a>
-  <a href="https://github.com/justaman045/Resume-Builder">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justaman045&repo=Resume-Builder&theme=github_dark" />
-  </a>
-  <a href="https://github.com/justaman045/Portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=justaman045&repo=Portfolio&theme=github_dark" />
-  </a>
-</div>
+| 📂 Repository | 📄 Description | 📅 Last Updated |
+| :--- | :--- | :--- |
+| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Jan 30, 2026 |
+| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Money Control is a modern finance tracking app tha... | Jan 29, 2026 |
+| **[codeitdown](https://github.com/justaman045/codeitdown)** | A Blog web app with a Custom Bsckend to host all t... | Jan 28, 2026 |
+
 <!-- RECENT-REPOS:END -->
 
 *(Note: These will update automatically)*
@@ -85,6 +84,11 @@ I contribute to open source and build personal projects. Here are my top contrib
 I write about what I learn on **[Dev.to](https://dev.to/justaman045)** and **[Hashnode](https://justaman045.hashnode.dev/)**.
 
 <!-- BLOG-POST-LIST:START -->
+- [Simple C programs with outputs to learn C](https://dev.to/justaman045/simple-c-programs-with-outputs-to-learn-c-19dg)
+- [Top 5 Linux Distributions to use as Your Virtual Machine](https://dev.to/justaman045/top-5-linux-distributions-to-use-as-your-virtual-machine-k4n)
+- [5 Habits of a Good Programmer](https://dev.to/justaman045/5-habits-of-a-good-programmer-1ii9)
+- [Things I'll be focusing on in 2022](https://dev.to/justaman045/things-ill-be-focusing-on-in-2022-18f6)
+- [An Overview and Setup of TypeScript as a Complete Beginner](https://dev.to/justaman045/an-overview-and-setup-of-typescript-as-a-complete-beginner-450h)
 <!-- BLOG-POST-LIST:END -->
 
 ---
