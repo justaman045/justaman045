@@ -41,8 +41,10 @@ async function getRecentGithubActivity(token) {
     const events = await response.json();
     return events.slice(0, 30).map(e => {
         if (e.type === 'PushEvent') {
+            const commitCount = e.payload.size || (e.payload.commits ? e.payload.commits.length : 0);
             const commits = e.payload.commits || [];
-            return `Pushed ${e.payload.size} commits to ${e.repo.name}: ${commits.map(c => c.message).join(', ')}`;
+            const msgs = commits.map(c => c.message).join(', ') || 'No specific commit messages';
+            return `Pushed ${commitCount} commits to ${e.repo.name}: ${msgs}`;
         }
         if (e.type === 'CreateEvent') return `Created ${e.payload.ref_type} in ${e.repo.name}`;
         return `${e.type} on ${e.repo.name}`;
@@ -178,10 +180,12 @@ async function generateSummary(activityLog, lastRepo) {
         if (!rawText) return null;
 
         // Clean up Markdown code blocks if present (Gemini often adds them)
-        rawText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+        const cleanedText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
+
+        console.log('Raw Gemini Output:', cleanedText); // Debug log
 
         // Parse JSON
-        return JSON.parse(rawText);
+        return JSON.parse(cleanedText);
 
     } catch (error) {
         console.error('Error with Gemini API:', error.message);
