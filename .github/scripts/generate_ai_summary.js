@@ -116,47 +116,74 @@ async function generateSummary(activityLog, lastRepo) {
     `;
 
     const prompt = `
-    You are writing the main "About Me" section for my GitHub Profile ("${GITHUB_USERNAME}").
+    You are managing the "About Me" and "Tech Stack" sections for my GitHub Profile ("${GITHUB_USERNAME}").
     
     ${profileContext}
 
     RECENT ACTIVITY (Last 48h):
     ${activityLog.join('\n')}
     
-    TASK: Write a dynamic, engaging, professional bio (2-3 sentences).
-    - Combine my PERMANENT identity (QA -> Aspiring Dev) with my RECENT activity.
-    - If I coded recently, highlight it: "Currently, I'm diving deep into [Repo Name]..."
-    - If I wrote a blog, mention it: "I also just explored [Topic] in my latest article..."
-    - If activity is low, focus on the mission: "I am an experienced QA Automation Engineer at Infosys, actively transitioning into Full Stack Development by building projects like ProjektNotify."
-    - TONE: Energetic, Professional, driven. First Person ("I").
-    - FORMAT: Plain text, no markdown headers, no "Daily Summary" labels.
+    TASK: Generate a JSON object with two fields: "bio" and "tech_stack".
+    
+    1. "bio": A dynamic, engaging, professional intro (2-3 sentences).
+       - Combine my PERMANENT identity (QA -> Aspiring Dev) with my RECENT activity.
+       - TONE: Energetic, Professional, driven. First Person ("I").
+    
+    2. "tech_stack": A Markdown list of my stack.
+       - Format:
+         - **Core Stack:** [Badges for Java, Selenium, Maven, Rest Assured, Appium]
+         - **Focus:** delivering high-quality software through automated testing and continuous integration.
+         - **Current Learning:** [Badges for Python, Django, React, Next.js, Flutter - prioritize based on recent activity if any, otherwise list all].
+       - Use "for-the-badge" style shields.io images.
+    
+    OUTPUT FORMAT:
+    {
+      "bio": "...",
+      "tech_stack": "..."
+    }
+    Return ONLY valid JSON.
     `;
 
     // Gemini API Payload
-    const body = JSON.stringify({
+    const payload = {
         contents: [{
             parts: [{ text: prompt }]
-        }]
-    });
+        }],
+        generationConfig: {
+            maxOutputTokens: 1000, // Increased for stack
+            responseMimeType: "application/json" // Force JSON
+        }
+    };
 
     // Append API key to URL query param
     const url = `${GEMINI_API_URL}?key=${apiKey}`;
 
-    const response = await fetch(url, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body
-    });
+    try {
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
 
-    if (!response.ok) {
-        const err = await response.text();
-        throw new Error(`Gemini API Error: ${err}`);
+        if (!response.ok) {
+            const err = await response.text();
+            throw new Error(`Gemini API Error: ${err}`);
+        }
+
+        const data = await response.json();
+        const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+
+        if (!rawText) return null;
+
+        // Parse JSON
+        return JSON.parse(rawText);
+
+    } catch (error) {
+        console.error('Error with Gemini API:', error.message);
+        return null; // Return null to skip update without error
     }
-
-    const data = await response.json();
-    return data.candidates[0].content.parts[0].text.trim();
 }
 
 // Helper to clear summary if API key is removed
@@ -164,21 +191,39 @@ async function clearSummary() {
     const readmePath = path.join(__dirname, '../../README.md');
     let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-    const startMarker = '<!-- AI-SUMMARY:START -->';
-    const endMarker = '<!-- AI-SUMMARY:END -->';
-    const newSection = `${startMarker}\n${endMarker}`; // Empty content between markers
+    const bioStart = '<!-- AI-SUMMARY:START -->';
+    const bioEnd = '<!-- AI-SUMMARY:END -->';
+    const newBioSection = `${bioStart}\n${bioEnd}`; // Empty content between markers
 
-    const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
-    if (readmeContent.match(regex)) {
-        const currentContent = readmeContent.match(regex)[0];
-        // Only write if there's actual content to clear (avoid empty commits)
-        if (currentContent.trim() !== newSection.trim()) {
-            readmeContent = readmeContent.replace(regex, newSection);
-            fs.writeFileSync(readmePath, readmeContent);
-            console.log('Cleared AI summary from README (No API Key provided).');
-        } else {
-            console.log('AI summary is already empty.');
+    const stackStart = '<!-- AI-STACK:START -->';
+    const stackEnd = '<!-- AI-STACK:END -->';
+    const newStackSection = `${stackStart}\n${stackEnd}`;
+
+    let updated = false;
+
+    const bioRegex = new RegExp(`${bioStart}[\\s\\S]*?${bioEnd}`);
+    if (readmeContent.match(bioRegex)) {
+        const currentContent = readmeContent.match(bioRegex)[0];
+        if (currentContent.trim() !== newBioSection.trim()) {
+            readmeContent = readmeContent.replace(bioRegex, newBioSection);
+            updated = true;
         }
+    }
+
+    const stackRegex = new RegExp(`${stackStart}[\\s\\S]*?${stackEnd}`);
+    if (readmeContent.match(stackRegex)) {
+        const currentContent = readmeContent.match(stackRegex)[0];
+        if (currentContent.trim() !== newStackSection.trim()) {
+            readmeContent = readmeContent.replace(stackRegex, newStackSection);
+            updated = true;
+        }
+    }
+
+    if (updated) {
+        fs.writeFileSync(readmePath, readmeContent);
+        console.log('Cleared AI summary and stack from README (No API Key provided).');
+    } else {
+        console.log('AI summary and stack sections are already empty.');
     }
 }
 
@@ -202,30 +247,47 @@ async function main() {
         const lastRepo = await getLastActiveRepo(token);
         console.log('Last Active Repo:', lastRepo);
 
-        const summary = await generateSummary(activityLog, lastRepo);
+        const aiData = await generateSummary(activityLog, lastRepo);
 
-        if (!summary) return;
+        if (!aiData) {
+            console.log('No AI generation produced. Skipping.');
+            return;
+        }
 
-        console.log('Generated Summary:', summary);
+        const { bio, tech_stack } = aiData;
+        console.log('Generated Bio:', bio);
+        console.log('Generated Stack:', tech_stack);
 
         // Update README
         const readmePath = path.join(__dirname, '../../README.md');
         let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-        const startMarker = '<!-- AI-SUMMARY:START -->';
-        const endMarker = '<!-- AI-SUMMARY:END -->';
+        // 1. Update Bio
+        const bioStart = '<!-- AI-SUMMARY:START -->';
+        const bioEnd = '<!-- AI-SUMMARY:END -->';
+        const newBioSection = `${bioStart}\n${bio}\n${bioEnd}`;
 
-        // Formatted Markdown Section (Just the text, no blockquotes or labels for cleaner Resume look)
-        const newSection = `${startMarker}\n${summary}\n${endMarker}`;
-
-        const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`);
-        if (readmeContent.match(regex)) {
-            readmeContent = readmeContent.replace(regex, newSection);
-            fs.writeFileSync(readmePath, readmeContent);
-            console.log('README updated with AI summary.');
+        const bioRegex = new RegExp(`${bioStart}[\\s\\S]*?${bioEnd}`);
+        if (readmeContent.match(bioRegex)) {
+            readmeContent = readmeContent.replace(bioRegex, newBioSection);
         } else {
             console.log('AI Summary markers not found.');
         }
+
+        // 2. Update Tech Stack
+        const stackStart = '<!-- AI-STACK:START -->';
+        const stackEnd = '<!-- AI-STACK:END -->';
+        const newStackSection = `${stackStart}\n${tech_stack}\n${stackEnd}`;
+
+        const stackRegex = new RegExp(`${stackStart}[\\s\\S]*?${stackEnd}`);
+        if (readmeContent.match(stackRegex)) {
+            readmeContent = readmeContent.replace(stackRegex, newStackSection);
+        } else {
+            console.log('Stack markers not found in README.');
+        }
+
+        fs.writeFileSync(readmePath, readmeContent);
+        console.log('README updated successfully with Bio and Stack.');
 
     } catch (error) {
         console.error('Error:', error.message);

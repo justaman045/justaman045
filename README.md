@@ -14,14 +14,8 @@
 **QA Automation Engineer @ Infosys**  
 *Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 5 days<!-- DURATION:END -->)
 
-- **Core Stack:**
-  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-  ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) 
-  ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) 
-  ![Rest Assured](https://img.shields.io/badge/Rest_Assured-02303A?style=for-the-badge&logo=postman&logoColor=white) 
-  ![Appium](https://img.shields.io/badge/Appium-41c4ff?style=for-the-badge&logo=appium&logoColor=black)
-- **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Playwright](https://img.shields.io/badge/-Playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white)
+<!-- AI-STACK:START -->
+<!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
 > Open to **Senior QA Automation** or **Full Stack Development** roles.  
