@@ -2,7 +2,7 @@
 
 ### 👨‍💻 QA Automation Engineer | 🚀 Aspiring Full Stack Developer
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=justaman045&theme=gitdimmed&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 I am an experienced **QA Automation Engineer** with a strong passion for software development. Currently working at **Infosys** since **October 25, 2021**, I specialize in building robust test automation frameworks while actively expanding my skill set in full-stack web and mobile development.
 

@@ -51,14 +51,15 @@ async function updateReadme() {
             return;
         }
 
-        // Generate HTML
-        let reposHtml = '<div align="center">\n';
+        // Generate Markdown Table
+        let reposHtml = '| 📂 Repository | 📄 Description | 📅 Last Updated |\n';
+        reposHtml += '| :--- | :--- | :--- |\n';
+
         recentRepos.forEach(repo => {
-            reposHtml += `  <a href="${repo.html_url}">\n`;
-            reposHtml += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=github_dark" />\n`;
-            reposHtml += `  </a>\n`;
+            const date = new Date(repo.pushed_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            const desc = repo.description ? repo.description.slice(0, 50) + (repo.description.length > 50 ? '...' : '') : 'No description';
+            reposHtml += `| **[${repo.name}](${repo.html_url})** | ${desc} | ${date} |\n`;
         });
-        reposHtml += '</div>';
 
         // Read README
         let readmeContent = fs.readFileSync(readmePath, 'utf8');
