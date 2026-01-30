@@ -19,5 +19,5 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TOTAL: true
-          SHOW_MASKED_TIME: true
-          STOP_AT_OTHER: true
+          SHOW_Masked_TIME: true
+          # STOP_AT_OTHER: true # Commented out to ensure all time is shown
