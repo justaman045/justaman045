@@ -44,11 +44,12 @@ async function getRecentGithubActivity(token) {
             const commitCount = e.payload.size || (e.payload.commits ? e.payload.commits.length : 0);
             const commits = e.payload.commits || [];
             const msgs = commits.map(c => c.message).join(', ') || 'No specific commit messages';
+            if (commitCount === 0) return null; // Filter out empty pushes (noise)
             return `Pushed ${commitCount} commits to ${e.repo.name}: ${msgs}`;
         }
         if (e.type === 'CreateEvent') return `Created ${e.payload.ref_type} in ${e.repo.name}`;
         return `${e.type} on ${e.repo.name}`;
-    });
+    }).filter(Boolean); // Remove nulls
 }
 
 // Simple RSS parser (regex based for zero-dependency)
@@ -152,8 +153,8 @@ async function generateSummary(activityLog, lastRepo) {
             parts: [{ text: prompt }]
         }],
         generationConfig: {
-            maxOutputTokens: 1000, // Increased for stack
-            responseMimeType: "application/json" // Force JSON
+            maxOutputTokens: 2500,
+            // responseMimeType: "application/json" // Removing strict mode to avoid truncation issues
         }
     };
 
