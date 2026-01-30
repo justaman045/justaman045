@@ -12,9 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://coderaman7.hashnode.dev/rss.xml,https://dev.to/feed/justaman045"
+      - name: Update blog posts
+        run: node .github/scripts/update_blog_posts.js
       
       - name: Update employment duration
         run: node .github/scripts/update_duration.js
