@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a driven QA Automation Engineer at Infosys, passionately committed to delivering robust software and continuously expanding my skillset. Currently, I'm diving deep into new development on the 'NextRound' project, actively pursuing opportunities in Senior QA Automation or Full Stack Development roles. My enthusiasm for learning new technologies is boundless, always seeking the next challenge for personal and professional growth.
+I'm a passionate QA Automation Engineer at Infosys, dedicated to crafting robust and reliable software solutions. Driven by a desire for continuous growth, I'm actively expanding my horizons into full-stack development, currently building 'ProjektNotify' in public, and eagerly pursuing opportunities that offer both impactful challenges and significant learning.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,12 +13,12 @@ I'm a driven QA Automation Engineer at Infosys, passionately committed to delive
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 5 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 6 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-007ACC?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-D4D8E2?style=for-the-badge&logo=appium&logoColor=darkgreen)
-- **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-E74C3C?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-5D007C?style=for-the-badge&logo=appium&logoColor=white)
+- **Focus:** Delivering high-quality software through robust automated testing and continuous integration strategies.
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -62,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Jan 30, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Jan 31, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Money Control is a modern finance tracking app tha... | Jan 29, 2026 |
 | **[codeitdown](https://github.com/justaman045/codeitdown)** | A Blog web app with a Custom Bsckend to host all t... | Jan 28, 2026 |
 
