@@ -77,9 +77,11 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 0 secs
+Total Time: 1 hr 6 mins
 
-No activity tracked
+JavaScript   47 mins         █████████████████▓░░░░░░░   70.59 %
+Markdown     17 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.71 %
+YAML         1 min           ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.71 %
 ```
 
 <!--END_SECTION:waka-->
