@@ -13,7 +13,7 @@ As a QA Automation Engineer at Infosys, I specialize in crafting robust, high-qu
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 7 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 8 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-orange?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-D4D4D4?style=for-the-badge&logo=appium&logoColor=black)
@@ -62,9 +62,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 1, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 2, 2026 |
+| **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Feb 1, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Money Control is a modern finance tracking app tha... | Jan 29, 2026 |
-| **[codeitdown](https://github.com/justaman045/codeitdown)** | A Blog web app with a Custom Bsckend to host all t... | Jan 28, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
