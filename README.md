@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-As a QA Automation Engineer at Infosys, I specialize in crafting robust, high-quality software through comprehensive automated testing. Driven by a passion for continuous growth, I'm actively expanding my horizons towards Senior QA Automation and Full Stack Development roles, eagerly embracing new technologies to build innovative solutions like 'ProjektNotify'. Whichever path offers better growth and pay, I'm ready to learn and excel!
+I'm a results-oriented QA Automation Engineer at Infosys, passionate about building robust and reliable software. Driven by a desire for continuous growth, I'm actively pursuing Senior QA Automation or Full Stack Development opportunities, eager to leverage new technologies and contribute to impactful projects.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,12 +13,12 @@ As a QA Automation Engineer at Infosys, I specialize in crafting robust, high-qu
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 8 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 9 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-orange?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-D4D4D4?style=for-the-badge&logo=appium&logoColor=black)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-orange?style=for-the-badge)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -62,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 2, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 3, 2026 |
 | **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Feb 1, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Money Control is a modern finance tracking app tha... | Jan 29, 2026 |
 
