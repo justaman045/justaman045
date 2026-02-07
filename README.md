@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a driven QA Automation Engineer at Infosys, specializing in building robust test frameworks with Java, Selenium, Maven, and Rest Assured. Passionate about continuous improvement, I'm actively expanding my skillset into full-stack development with Python, Django, React, and Next.js, while publicly building 'ProjektNotify'. I'm eager for my next challenge, seeking opportunities in Senior QA Automation or Full Stack Development that promise impactful growth and innovation.
+As a dedicated QA Automation Engineer at Infosys since Oct 2021, I am driven by a passion for delivering high-quality software and continuously evolving my skill set. I'm actively building 'ProjektNotify' in public while expanding my expertise into full-stack development, eager to contribute to innovative solutions. My career path is guided by opportunities for significant growth and challenging learning experiences, whether in senior QA Automation or full-stack development.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,10 +13,10 @@ I'm a driven QA Automation Engineer at Infosys, specializing in building robust 
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 12 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 13 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-CC3333?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-E44D26?style=for-the-badge)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-D2691E?style=for-the-badge)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
 - **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
@@ -62,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 6, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | From this Repository I can create a Readme.md File... | Feb 7, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Money Control is a modern finance tracking app tha... | Feb 5, 2026 |
 | **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Feb 1, 2026 |
 
