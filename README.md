@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a QA Automation Engineer at Infosys, driven by a passion for delivering robust software and a relentless pursuit of growth. Currently, I'm expanding my expertise beyond automation, actively building full-stack applications with Python, Django, React, and Next.js, including my project 'ProjektNotify' which I'm developing in public.
+As a QA Automation Engineer at Infosys, I'm passionate about building robust software and constantly seeking growth, whether advancing in QA Automation or diving into Full Stack Development. I'm actively building 'ProjektNotify' in public, leveraging my expertise in Java and Selenium while enthusiastically mastering Python, Django, React, and Flutter.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,12 +13,12 @@ I'm a QA Automation Engineer at Infosys, driven by a passion for delivering robu
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 23 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 24 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-%232D9D86.svg?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-CC3333?style=for-the-badge&logo=Apache-Maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-orange?style=for-the-badge)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-007396?style=for-the-badge&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-0182E4?style=for-the-badge&logo=appium&logoColor=white)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -62,9 +62,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | No description | Feb 17, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | No description | Feb 18, 2026 |
+| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | Feb 17, 2026 |
 | **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Feb 11, 2026 |
-| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | Feb 8, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
