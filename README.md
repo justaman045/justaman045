@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a driven QA Automation Engineer at Infosys, passionate about ensuring software quality while actively expanding my horizons towards full-stack development. Always seeking opportunities that offer both professional growth and impactful challenges, I'm currently even exploring new avenues within my `company` projects. My journey is all about building robust systems, whether through meticulous testing or innovative code.
+I'm a driven QA Automation Engineer at Infosys, consistently delivering high-quality software while passionately expanding my expertise towards full-stack development. I'm actively building and exploring new ventures, like my recent work on the 'company' branch, always seeking impactful opportunities that offer significant growth and challenge across both QA and development.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,12 +13,12 @@ I'm a driven QA Automation Engineer at Infosys, passionate about ensuring softwa
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 26 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 3 months, 27 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-%2343B02A.svg?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-CC0000?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest_Assured-007ACC?style=for-the-badge)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest_Assured-FF6F00?style=for-the-badge&logoColor=white)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -62,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | No description | Feb 20, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | No description | Feb 21, 2026 |
 | **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | Feb 18, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | Feb 17, 2026 |
 
