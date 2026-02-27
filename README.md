@@ -77,12 +77,11 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 4 hrs 37 mins
+Total Time: 3 hrs 8 mins
 
-TypeScript   2 hrs 12 mins         ████████████░░░░░░░░░░░░░   47.82 %
-Other        1 hr 51 mins          ██████████░░░░░░░░░░░░░░░   40.37 %
-Dart         32 mins               ███░░░░░░░░░░░░░░░░░░░░░░   11.76 %
-Python       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 %
+TypeScript   1 hr 52 mins          ███████████████░░░░░░░░░░   59.50 %
+Other        1 hr 16 mins          ██████████░░░░░░░░░░░░░░░   40.43 %
+Python       0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
 
 <!--END_SECTION:waka-->
