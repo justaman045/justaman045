@@ -77,9 +77,10 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 13 mins
+Total Time: 20 mins
 
-Dart   13 mins               █████████████████████████   100.00 %
+Dart       13 mins               ████████████████▓░░░░░░░░   67.02 %
+Markdown   6 mins                ████████▒░░░░░░░░░░░░░░░░   32.98 %
 ```
 
 <!--END_SECTION:waka-->
