@@ -89,11 +89,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 ```txt
 Total Time: 0 secs
 
-TypeScript   0 secs                ██████████░░░░░░░░░░░░░░░   39.51 %
-JSON         0 secs                ███████▒░░░░░░░░░░░░░░░░░   29.20 %
-Other        0 secs                ██▓░░░░░░░░░░░░░░░░░░░░░░   11.09 %
-HTML         0 secs                █▓░░░░░░░░░░░░░░░░░░░░░░░   07.02 %
-Git Config   0 secs                █▒░░░░░░░░░░░░░░░░░░░░░░░   05.87 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
