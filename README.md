@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a QA Automation Engineer at Infosys, passionate about building robust software and continuously exploring new technologies. Actively pushing the boundaries of automated testing while diving deep into full-stack development, as demonstrated by my recent work on 'Agentic-TODO' and 'ProjektNotify'. I'm constantly seeking opportunities for significant growth, eager to learn any new skill that can help me make a bigger impact.
+I'm a QA Automation Engineer at Infosys, passionate about crafting robust software and exploring new horizons in full-stack development. Currently, I'm diving deeper into agentic systems, as seen by my recent work on `Agentic-TODO`, while also actively building my public project, 'ProjektNotify'. I'm constantly seeking opportunities that challenge me, offer significant growth, and expand my technical toolkit across both QA and development domains.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,10 +13,10 @@ I'm a QA Automation Engineer at Infosys, passionate about building robust softwa
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 9 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 10 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache_Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-007396?style=for-the-badge&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-007396?style=for-the-badge&logo=appium&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/REST_Assured-lightgrey?style=for-the-badge)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
 - **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
@@ -62,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 3, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 4, 2026 |
 | **[Agentic-TODO](https://github.com/justaman045/Agentic-TODO)** | No description | Mar 31, 2026 |
 | **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Mar 30, 2026 |
 
