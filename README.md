@@ -77,9 +77,12 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 0 secs
+Total Time: 20 mins
 
-No activity tracked
+TypeScript   16 mins               ███████████████████▓░░░░░   79.09 %
+JSON         3 mins                ███▓░░░░░░░░░░░░░░░░░░░░░   15.19 %
+Other        1 min                 █▒░░░░░░░░░░░░░░░░░░░░░░░   05.65 %
+TSConfig     0 secs                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
 ```
 
 <!--END_SECTION:waka-->
