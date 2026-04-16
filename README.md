@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-Currently a QA Automation Engineer at Infosys, I'm a highly driven professional with a solid foundation in delivering top-tier software quality. I'm passionately pursuing growth opportunities in Senior QA Automation or Full Stack Development, actively expanding my expertise while publicly building innovative projects like 'ProjektNotify'.
+As a dedicated QA Automation Engineer at Infosys, I'm driven by a passion for delivering high-quality software and continuously evolving my skills. I'm actively pursuing opportunities in Senior QA Automation or Full Stack Development, always eager to learn new technologies and contribute to impactful projects like ProjektNotify. My recent focus on career optimization reflects my commitment to strategic growth and finding the best path forward.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,21 +13,12 @@ Currently a QA Automation Engineer at Infosys, I'm a highly driven professional 
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 21 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 22 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:**
-  ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-  ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-  ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-  ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-FF4400?style=for-the-badge&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Selenium](https://img.shields.io/badge/selenium-%2320C9FF.svg?style=for-the-badge&logo=selenium&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-%23C71A36.svg?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-darkgreen?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-%23D4D4D4.svg?style=for-the-badge&logo=appium&logoColor=black)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:**
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-  ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+- **Current Learning:** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -71,7 +62,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 15, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 16, 2026 |
 | **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | Apr 11, 2026 |
 | **[Instagram-Content-Analyzer](https://github.com/justaman045/Instagram-Content-Analyzer)** | Instagram Bot & Automation Tool — A Python-based C... | Apr 8, 2026 |
 
