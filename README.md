@@ -77,13 +77,13 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 10 hrs 38 mins
+Total Time: 12 hrs 57 mins
 
-TypeScript   7 hrs 4 mins          ████████████████▓░░░░░░░░   66.53 %
-Other        2 hrs 10 mins         █████░░░░░░░░░░░░░░░░░░░░   20.45 %
-Markdown     39 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.16 %
-YAML         25 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.94 %
-JSON         14 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.25 %
+TypeScript   9 hrs 12 mins         █████████████████▓░░░░░░░   70.98 %
+Other        2 hrs 22 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.30 %
+Markdown     39 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.05 %
+YAML         25 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.23 %
+JSON         14 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.86 %
 ```
 
 <!--END_SECTION:waka-->
