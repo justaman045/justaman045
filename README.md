@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a QA Automation Engineer at Infosys, driven by a passion for delivering robust software and continuously exploring new technologies. Currently, I'm actively expanding my horizons, diving into new projects like 'justaman045/Assistant' and staying sharp on industry trends, aiming for Senior QA Automation or Full Stack Development roles where I can best grow and contribute.
+As a passionate QA Automation Engineer at Infosys, I'm dedicated to ensuring software quality while actively charting my course towards impactful Senior QA Automation or Full Stack Development roles. I'm currently diving deep into new technologies, building out projects like 'ProjektNotify' and exploring new concepts within my 'Assistant' repository, constantly driven by a desire for continuous growth and impact. Open to learning any new skill, I'm always strategizing for the next opportunity that promises both career advancement and substantial learning.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,12 +13,12 @@ I'm a QA Automation Engineer at Infosys, driven by a passion for delivering robu
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 29 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 5 months, 30 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-lightgrey?style=for-the-badge) ![Appium](https://img.shields.io/badge/Appium-D4F4F9?style=for-the-badge&logo=appium&logoColor=black)
+- **Core Stack:** [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/) [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/) [![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/) [![Rest Assured](https://img.shields.io/badge/Rest--Assured-blue?style=for-the-badge)](http://rest-assured.io/)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+- **Current Learning:** [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/) [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/) [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/) [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/) [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -62,9 +62,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 23, 2026 |
-| **[Assistant](https://github.com/justaman045/Assistant)** | No description | Apr 20, 2026 |
-| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | Apr 17, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 24, 2026 |
+| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | Apr 23, 2026 |
+| **[Assistant](https://github.com/justaman045/Assistant)** | No description | Apr 23, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
