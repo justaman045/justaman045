@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a results-driven QA Automation Engineer at Infosys, passionate about ensuring software quality while actively expanding my skill set towards Full Stack Development. With a keen interest in building high-impact solutions, I'm currently seeking challenging Senior QA Automation or Development roles that offer significant growth and the opportunity to master new technologies. I'm committed to continuous learning and delivering exceptional software experiences.
+I'm a QA Automation Engineer at Infosys, passionate about delivering high-quality software and actively transitioning my career towards senior QA Automation or Full Stack Development roles. I'm currently building 'ProjektNotify' in public, continuously expanding my expertise in new technologies to seize opportunities that promise significant growth and impact.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,14 +13,15 @@ I'm a results-driven QA Automation Engineer at Infosys, passionate about ensurin
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 4 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 5 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:**
   ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
   ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-  ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-  ![Rest Assured](https://img.shields.io/badge/Rest--Assured-02303A?style=for-the-badge&logoColor=white)
+  ![Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+  ![Rest Assured](https://img.shields.io/badge/Rest--Assured-007396?style=for-the-badge&logoColor=white)
+  ![Appium](https://img.shields.io/badge/Appium-D300C9?style=for-the-badge&logo=appium&logoColor=white)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
 - **Current Learning:**
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -71,7 +72,7 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 29, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | Apr 30, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | Apr 26, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | Apr 25, 2026 |
 
