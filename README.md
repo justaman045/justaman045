@@ -13,7 +13,7 @@ I'm a driven QA Automation Engineer at Infosys, passionate about ensuring softwa
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 8 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 9 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:**
@@ -72,8 +72,8 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 3, 2026 |
-| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 2, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 4, 2026 |
+| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 3, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | Apr 25, 2026 |
 
 <!-- RECENT-REPOS:END -->
