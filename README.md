@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-As a QA Automation Engineer at Infosys, I'm driven by a passion for delivering robust software and a relentless pursuit of growth, actively seeking Senior QA Automation or Full Stack Development opportunities. I'm currently building `ProjektNotify` while enthusiastically expanding my skillset across modern development stacks to embrace challenges that offer both impact and learning.
+I'm a dedicated QA Automation Engineer at Infosys, driven by a passion for ensuring software quality and continuously expanding my development expertise. Currently, I'm diving deep into full-stack development, actively building 'ProjektNotify' in public, and constantly seeking roles that blend my QA automation skills with opportunities for growth in Senior QA Automation or Full Stack Development.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,20 +13,20 @@ As a QA Automation Engineer at Infosys, I'm driven by a passion for delivering r
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 11 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 12 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:**
-  ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-  ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-  ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-  ![Rest Assured](https://img.shields.io/badge/Rest%20Assured-E3003B?style=for-the-badge&logo=rest-assured&logoColor=white)
+- **Core Stack:** 
+  ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) 
+  ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) 
+  ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) 
+  ![Rest Assured](https://img.shields.io/badge/Rest_Assured-red?style=for-the-badge)
 - **Focus:** delivering high-quality software through automated testing and continuous integration.
-- **Current Learning:**
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+- **Current Learning:** 
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
+  ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) 
+  ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) 
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) 
   ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
@@ -71,8 +71,8 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 6, 2026 |
-| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 3, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 7, 2026 |
+| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 6, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | Apr 25, 2026 |
 
 <!-- RECENT-REPOS:END -->
