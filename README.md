@@ -13,7 +13,7 @@ As a driven QA Automation Engineer at Infosys since October 2021, I am passionat
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 16 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 17 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![](https://img.shields.io/badge/Rest_Assured-28A745?style=for-the-badge)
@@ -62,9 +62,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 11, 2026 |
-| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 9, 2026 |
-| **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 8, 2026 |
+| **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 12, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 12, 2026 |
+| **[Job-Application-tracker](https://github.com/justaman045/Job-Application-tracker)** | No description | May 11, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
