@@ -13,7 +13,7 @@ I'm a highly driven QA Automation Engineer at Infosys, leveraging a robust backg
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 18 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 19 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:**
@@ -71,9 +71,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 13, 2026 |
-| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | May 12, 2026 |
-| **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 12, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 14, 2026 |
+| **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 13, 2026 |
+| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | May 13, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
