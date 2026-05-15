@@ -5,7 +5,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a highly driven QA Automation Engineer at Infosys, leveraging a robust background in quality assurance to build and deliver exceptional software. Actively expanding my skill set towards Senior QA Automation or Full Stack Development roles, I'm dedicated to continuous growth, meticulously tracking my learning journey and career opportunities. My passion lies in creating impactful solutions, as demonstrated by projects like "ProjektNotify," and I'm eager to embrace new challenges that offer significant personal and professional development.
+As a QA Automation Engineer at Infosys, I'm passionate about building robust software and driven by a relentless pursuit of growth, whether it's mastering complex automation challenges or diving deep into full-stack development. I'm actively expanding my horizons, currently tracking my learning journey and job applications while building 'ProjektNotify' in public, always eager to embrace new technologies for impactful solutions.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -13,21 +13,12 @@ I'm a highly driven QA Automation Engineer at Infosys, leveraging a robust backg
 ## 💼 Professional Experience
 
 **QA Automation Engineer @ Infosys**  
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 19 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 20 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:**
-  [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-  [![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
-  [![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
-  [![REST Assured](https://img.shields.io/badge/REST_Assured-FF6600?style=for-the-badge)](https://rest-assured.io/)
-- **Focus:** Delivering high-quality software through automated testing and continuous integration.
-- **Current Learning & Development:**
-  [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-  [![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-  [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-  [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
-  [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Maven](https://img.shields.io/badge/Apache%20Maven-CC4D0E?style=for-the-badge&logo=apache-maven&logoColor=white) ![Rest Assured](https://img.shields.io/badge/Rest_Assured-FF0000?style=for-the-badge)
+- **Focus:** delivering high-quality software through automated testing and continuous integration.
+- **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
 > 📢 **Actively looking for new opportunities!**  
@@ -71,9 +62,9 @@ I contribute to open source and build personal projects. Here are my top contrib
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 14, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an S... | May 15, 2026 |
+| **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. ... | May 14, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 13, 2026 |
-| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with... | May 13, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
