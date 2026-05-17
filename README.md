@@ -21,9 +21,11 @@ As a QA Automation Engineer at Infosys, I'm actively channeling my drive to mast
 - **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 <!-- AI-STACK:END -->
 
+<!-- AI-BANNER:START -->
 > 📢 **Actively looking for new opportunities!**  
 > Open to **Senior QA Automation** or **Full Stack Development** roles.  
 > *Focused on growth, better compensation, and challenging problems.*
+<!-- AI-BANNER:END -->
 
 ---
 
@@ -113,5 +115,5 @@ I write about what I learn on **[Dev.to](https://dev.to/justaman045)** and **[Ha
 ---
 
 <div align="center">
-  <img src="https://github.com/justaman045/justaman045/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/justaman045/justaman045/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>

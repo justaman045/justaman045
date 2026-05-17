@@ -1,27 +1,31 @@
-name: Latest blog posts
+name: Update README
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 1 * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually
+  schedule:
+    - cron: '0 1 * * *' # Runs daily at 01:00 UTC (06:30 IST)
+  workflow_dispatch:
   push:
     branches:
       - master
 jobs:
-  update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+  update-readme:
+    name: Update dynamic sections
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
+
       - name: Update blog posts
         run: node .github/scripts/update_blog_posts.js
-      
+        continue-on-error: true
+
       - name: Update employment duration
         run: node .github/scripts/update_duration.js
 
       - name: Update recent repositories
         run: node .github/scripts/update_recent_repos.js
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Generate AI Daily Summary
         run: node .github/scripts/generate_ai_summary.js

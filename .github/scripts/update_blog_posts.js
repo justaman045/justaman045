@@ -4,7 +4,7 @@ const https = require('https');
 
 // Configuration
 const RSS_URLS = [
-    'https://coderaman7.hashnode.dev/rss.xml',
+    'https://justaman045.hashnode.dev/rss.xml',
     'https://dev.to/feed/justaman045'
 ];
 const MAX_POSTS = 5;

@@ -11,7 +11,7 @@ function fetchData(url) {
         const options = {
             headers: {
                 'User-Agent': 'node.js',
-                'Authorization': process.env.GITHUB_TOKEN ? `token ${process.env.GITHUB_TOKEN}` : undefined
+                'Authorization': process.env.GH_PAT ? `token ${process.env.GH_PAT}` : (process.env.GITHUB_TOKEN ? `token ${process.env.GITHUB_TOKEN}` : undefined)
             }
         };
 
@@ -36,7 +36,7 @@ function fetchData(url) {
 async function updateReadme() {
     try {
         console.log('Fetching repositories...');
-        const repos = await fetchData(`https://api.github.com/users/${username}/repos?sort=pushed&per_page=100&type=owner`);
+        const repos = await fetchData(`https://api.github.com/users/${username}/repos?sort=pushed&per_page=100&type=owner`); // NOTE: max 100 repos — oldest silently dropped if exceeded
 
         // Filter out forks and get top 3 recently pushed
         const recentRepos = repos
@@ -57,7 +57,7 @@ async function updateReadme() {
 
         recentRepos.forEach(repo => {
             const date = new Date(repo.pushed_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-            const desc = repo.description ? repo.description.slice(0, 50) + (repo.description.length > 50 ? '...' : '') : 'No description';
+            const desc = repo.description ? repo.description.slice(0, 100) + (repo.description.length > 100 ? '...' : '') : 'No description';
             reposHtml += `| **[${repo.name}](${repo.html_url})** | ${desc} | ${date} |\n`;
         });
 

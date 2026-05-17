@@ -14,8 +14,8 @@ jobs:
     name: Update Readme with Wakatime Stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v4
+      - uses: athul/waka-readme@v0.3.1
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TOTAL: true

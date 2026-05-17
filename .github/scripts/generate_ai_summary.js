@@ -2,16 +2,14 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Configuration
 const GITHUB_USERNAME = 'justaman045';
 const RSS_URLS = [
-    'https://coderaman7.hashnode.dev/rss.xml',
+    'https://justaman045.hashnode.dev/rss.xml',
     'https://dev.to/feed/justaman045'
 ];
-const GEMINI_MODEL = 'gemini-2.5-flash'; // User requested model
+const GEMINI_MODEL = 'gemini-2.5-flash';
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
-// Helper to fetch data
 const fetch = (url, options = {}) => {
     return new Promise((resolve, reject) => {
         const req = https.request(url, options, (res) => {
@@ -30,29 +28,86 @@ const fetch = (url, options = {}) => {
     });
 };
 
-async function getRecentGithubActivity(token) {
+function getAuthHeaders(token) {
     const headers = { 'User-Agent': 'node.js' };
     if (token) headers['Authorization'] = `token ${token}`;
+    return headers;
+}
 
-    // Fetch events (Using /events instead of /events/public to include private repos if token has scope)
-    const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/events`, { headers });
+async function getAllRepos(token) {
+    const headers = getAuthHeaders(token);
+    const response = await fetch(
+        `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&type=owner&sort=updated`, // NOTE: max 100 repos — oldest silently dropped if exceeded
+        { headers }
+    );
+    if (!response.ok) {
+        console.warn(`Failed to fetch repos: HTTP ${response.status}`);
+        return [];
+    }
+    const repos = await response.json();
+    return repos
+        .filter(r => !r.fork)
+        .map(r => ({
+            name: r.name,
+            description: r.description || '',
+            language: r.language || '',
+            topics: r.topics || [],
+            stars: r.stargazers_count || 0,
+            forks: r.forks_count || 0,
+            private: r.private || false,
+            created_at: r.created_at,
+            pushed_at: r.pushed_at,
+            html_url: r.html_url
+        }))
+        .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at));
+}
+
+async function getRepoReadme(token, repoName) {
+    const headers = getAuthHeaders(token);
+    headers['Accept'] = 'application/vnd.github.raw+json';
+    try {
+        const response = await fetch(
+            `https://api.github.com/repos/${GITHUB_USERNAME}/${repoName}/readme`,
+            { headers }
+        );
+        if (!response.ok) {
+            if (response.status === 403) {
+                console.warn(`  Rate limited or no access for ${repoName}, skipping README`);
+            } else if (response.status !== 404) {
+                console.warn(`  Failed to fetch README for ${repoName}: HTTP ${response.status}`);
+            }
+            return null;
+        }
+        const text = await response.text();
+        return text.length > 4000 ? text.slice(0, 4000) + '\n... [truncated]' : text;
+    } catch (e) {
+        console.warn(`  Error fetching README for ${repoName}: ${e.message}`);
+        return null;
+    }
+}
+
+async function getExpandedActivity(token) {
+    const headers = getAuthHeaders(token);
+    const response = await fetch(
+        `https://api.github.com/users/${GITHUB_USERNAME}/events?per_page=100`,
+        { headers }
+    );
     if (!response.ok) return [];
 
     const events = await response.json();
-    return events.slice(0, 30).map(e => {
+    return events.map(e => {
         if (e.type === 'PushEvent') {
             const commitCount = e.payload.size || (e.payload.commits ? e.payload.commits.length : 0);
             const commits = e.payload.commits || [];
             const msgs = commits.map(c => c.message).join(', ') || 'No specific commit messages';
-            if (commitCount === 0) return null; // Filter out empty pushes (noise)
+            if (commitCount === 0) return null;
             return `Pushed ${commitCount} commits to ${e.repo.name}: ${msgs}`;
         }
         if (e.type === 'CreateEvent') return `Created ${e.payload.ref_type} in ${e.repo.name}`;
         return `${e.type} on ${e.repo.name}`;
-    }).filter(Boolean); // Remove nulls
+    }).filter(Boolean);
 }
 
-// Simple RSS parser (regex based for zero-dependency)
 async function getRecentBlogPosts() {
     const posts = [];
     for (const url of RSS_URLS) {
@@ -61,7 +116,6 @@ async function getRecentBlogPosts() {
             if (!response.ok) continue;
             const xml = await response.text();
 
-            // Extract items
             const itemRegex = /<item>([\s\S]*?)<\/item>/g;
             let match;
             while ((match = itemRegex.exec(xml)) !== null) {
@@ -82,91 +136,108 @@ async function getRecentBlogPosts() {
             console.error(`Failed to fetch RSS from ${url}`, e);
         }
     }
-    // Return posts from last 48 hours
     const twoDaysAgo = new Date();
     twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
     return posts.filter(p => p.date > twoDaysAgo).map(p => `Published blog: "${p.title}"`);
 }
 
-// Feature: Get last active repo for fallback message
-async function getLastActiveRepo(token) {
-    const headers = { 'User-Agent': 'node.js' };
-    if (token) headers['Authorization'] = `token ${token}`;
-
-    // Fetch user's repos sorted by updated desc
-    const response = await fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=pushed&per_page=1`, { headers });
-    if (!response.ok) return 'projects';
-
-    const repos = await response.json();
-    return repos.length > 0 ? repos[0].name : 'projects';
-}
-
-async function generateSummary(activityLog, lastRepo) {
+async function generateSummary(activityLog, repos, readmeMap, resumeBase64) {
     const apiKey = process.env.GEMINI_API_KEY;
     if (!apiKey) {
         console.log('No GEMINI_API_KEY provided. Skipping summary generation.');
-        return null; // Return null to skip update without error
+        return null;
     }
 
-    const profileContext = `
-    PROFILE CONTEXT:
-    - Current Role: QA Automation Engineer @ Infosys (since Oct 2021).
-    - Career Goal: Seeking Senior QA Automation roles OR Full Stack Development positions (open to both).
-    - mindset: "Whichever opportunity offers better growth and pay." Open to learning any new skill.
-    - Core Stack (QA): Java, Selenium, Maven, Rest Assured.
-    - Dev Stack (Learning/Building): Python, Django, React, Next.js, Flutter.
-    - Key Project: "ProjektNotify" (building in public).
-    `;
+    const activityText = activityLog.length > 0
+        ? activityLog.join('\n')
+        : 'No recent activity detected.';
 
-    const prompt = `
-    You are managing the "About Me" and "Tech Stack" sections for my GitHub Profile ("${GITHUB_USERNAME}").
-    
-    ${profileContext}
+    const repoTable = repos.map(r =>
+        `| ${r.private ? '🔒' : '🌍'} ${r.name} | ${(r.description || '').slice(0, 80)} | ${r.language} | ${r.stars} ★ | ${r.created_at ? r.created_at.slice(0, 10) : '?'} |`
+    ).join('\n');
 
-    RECENT ACTIVITY (Last 48h):
-    ${activityLog.join('\n')}
-    
-    TASK: Generate a JSON object with two fields: "bio" and "tech_stack".
-    
-    1. "bio": A dynamic, engaging, professional intro (2-3 sentences).
-       - Combine my PERMANENT identity (QA -> Aspiring Dev) with my RECENT activity.
-       - TONE: Energetic, Professional, driven. First Person ("I").
-    
-    2. "tech_stack": A Markdown list of my stack.
-       - Format:
-         - **Core Stack:** [Badges for Java, Selenium, Maven, Rest Assured, Appium]
-         - **Focus:** delivering high-quality software through automated testing and continuous integration.
-         - **Current Learning:** [Badges for Python, Django, React, Next.js, Flutter - prioritize based on recent activity if any, otherwise list all].
-       - Use "for-the-badge" style shields.io images.
-    
-    OUTPUT FORMAT:
-    {
-      "bio": "...",
-      "tech_stack": "..."
+    const readmeSection = repos
+        .filter(r => readmeMap[r.name])
+        .map(r => `--- ${r.name} ---\n${readmeMap[r.name]}`)
+        .join('\n\n');
+
+    const contextNote = repos.length === 0
+        ? '\n[Could not fetch repository catalog — API may be rate-limited]'
+        : '';
+
+    const prompt = `You are managing the "About Me" and "Tech Stack" sections for my GitHub Profile ("${GITHUB_USERNAME}").
+
+MY RESUME (attached PDF):
+My complete professional resume is attached as a PDF. Extract all details from it — my career goals, skills, experience, education, certifications, and everything else.
+
+MY FULL REPOSITORY CATALOG (all my projects, including private ones):
+| Repo | Description | Language | Stars | Created |
+|---|---|---|---|---|
+${repoTable}
+${contextNote}
+
+README CONTENTS FOR KEY PROJECTS:
+${readmeSection || '(No READMEs fetched)'}
+
+RECENT GITHUB ACTIVITY (last ~100 events):
+${activityText}
+
+TASK: Generate a JSON object with exactly three fields: "bio", "tech_stack", and "banner".
+
+1. "bio": A dynamic, engaging professional introduction (2-3 sentences).
+   - First, deeply understand my full career story from the attached resume.
+   - Then contextualize it with my actual projects and recent activity.
+   - Reflect my professional identity (QA Automation Engineer transitioning toward Full Stack Development).
+   - Reference specific projects or technologies from the repo catalog when relevant.
+   - Mention recent activity to show I'm actively building.
+   - TONE: Energetic, professional, driven. First person ("I").
+
+2. "tech_stack": A Markdown list of my technology stack.
+   - Format exactly like this:
+     - **Core Stack:** [Badges for my primary professional skills from my resume]
+     - **Focus:** [One sentence summarizing my main professional focus]
+     - **Current Learning:** [Badges for technologies I'm learning or building with, based on repos + recent activity]
+   - Use "for-the-badge" style shields.io badge images.
+   - Include languages and frameworks from both my resume AND my actual repos.
+
+3. "banner": A 1-line professional callout about my current availability.
+   - Reflect my current job-seeking status from the resume and recent activity.
+   - Mention specific roles I am targeting.
+   - Keep it to 1-2 lines, Markdown bold.
+   - If I'm not actively seeking, set to empty string.
+
+OUTPUT FORMAT:
+{
+  "bio": "...",
+  "tech_stack": "...",
+  "banner": "... or empty string"
+}
+Return ONLY valid JSON.`;
+
+    const parts = [];
+    if (resumeBase64) {
+        parts.push({
+            inlineData: {
+                mimeType: "application/pdf",
+                data: resumeBase64
+            }
+        });
     }
-    Return ONLY valid JSON.
-    `;
+    parts.push({ text: prompt });
 
-    // Gemini API Payload
     const payload = {
-        contents: [{
-            parts: [{ text: prompt }]
-        }],
+        contents: [{ parts }],
         generationConfig: {
             maxOutputTokens: 2500,
-            // responseMimeType: "application/json" // Removing strict mode to avoid truncation issues
         }
     };
 
-    // Append API key to URL query param
     const url = `${GEMINI_API_URL}?key=${apiKey}`;
 
     try {
         const response = await fetch(url, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
         });
 
@@ -180,32 +251,30 @@ async function generateSummary(activityLog, lastRepo) {
 
         if (!rawText) return null;
 
-        // Clean up Markdown code blocks if present (Gemini often adds them)
         const cleanedText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
-
-        console.log('Raw Gemini Output:', cleanedText); // Debug log
-
-        // Parse JSON
+        console.log('Raw Gemini Output:', cleanedText);
         return JSON.parse(cleanedText);
-
     } catch (error) {
         console.error('Error with Gemini API:', error.message);
-        return null; // Return null to skip update without error
+        return null;
     }
 }
 
-// Helper to clear summary if API key is removed
 async function clearSummary() {
     const readmePath = path.join(__dirname, '../../README.md');
     let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
     const bioStart = '<!-- AI-SUMMARY:START -->';
     const bioEnd = '<!-- AI-SUMMARY:END -->';
-    const newBioSection = `${bioStart}\n${bioEnd}`; // Empty content between markers
+    const newBioSection = `${bioStart}\n${bioEnd}`;
 
     const stackStart = '<!-- AI-STACK:START -->';
     const stackEnd = '<!-- AI-STACK:END -->';
     const newStackSection = `${stackStart}\n${stackEnd}`;
+
+    const bannerStart = '<!-- AI-BANNER:START -->';
+    const bannerEnd = '<!-- AI-BANNER:END -->';
+    const newBannerSection = `${bannerStart}\n${bannerEnd}`;
 
     let updated = false;
 
@@ -227,12 +296,30 @@ async function clearSummary() {
         }
     }
 
+    const bannerRegex = new RegExp(`${bannerStart}[\\s\\S]*?${bannerEnd}`);
+    if (readmeContent.match(bannerRegex)) {
+        const currentContent = readmeContent.match(bannerRegex)[0];
+        if (currentContent.trim() !== newBannerSection.trim()) {
+            readmeContent = readmeContent.replace(bannerRegex, newBannerSection);
+            updated = true;
+        }
+    }
+
     if (updated) {
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('Cleared AI summary and stack from README (No API Key provided).');
+        console.log('Cleared AI summary, stack, and banner from README (No API Key provided).');
     } else {
-        console.log('AI summary and stack sections are already empty.');
+        console.log('AI summary, stack, and banner sections are already empty.');
     }
+}
+
+function getRepoPriority(repo) {
+    const sixMonthsAgo = new Date();
+    sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+    const pushedDate = new Date(repo.pushed_at);
+    if (pushedDate < sixMonthsAgo) return 0;
+    const hasDescription = repo.description && repo.description.length > 10;
+    return (repo.stars * 2) + (hasDescription ? 3 : 0) + (repo.forks > 0 ? 1 : 0);
 }
 
 async function main() {
@@ -243,34 +330,64 @@ async function main() {
             return;
         }
 
-        console.log('Fetching activity...');
         const token = process.env.GH_PAT || process.env.GITHUB_TOKEN;
-        const githubActivity = await getRecentGithubActivity(token);
+
+        console.log('Fetching all repositories (including private)...');
+        const allRepos = await getAllRepos(token);
+        console.log(`Found ${allRepos.length} non-fork repos`);
+
+        console.log('Fetching READMEs for significant repos...');
+        const readmeMap = {};
+        const readmeCandidates = allRepos
+            .map(r => ({ ...r, priority: getRepoPriority(r) }))
+            .filter(r => r.priority > 0)
+            .sort((a, b) => b.priority - a.priority)
+            .slice(0, 8);
+
+        for (const repo of readmeCandidates) {
+            console.log(`  Fetching README for ${repo.name}...`);
+            const readme = await getRepoReadme(token, repo.name);
+            if (readme) {
+                readmeMap[repo.name] = readme;
+                console.log(`    Got README (${readme.length} chars)`);
+            }
+        }
+        console.log(`Fetched ${Object.keys(readmeMap).length} READMEs`);
+
+        console.log('Fetching expanded activity...');
+        const githubActivity = await getExpandedActivity(token);
         const blogActivity = await getRecentBlogPosts();
 
         const activityLog = [...githubActivity, ...blogActivity];
-        console.log('Activity Log:', activityLog);
+        console.log(`Activity entries: ${activityLog.length}`);
 
-        console.log('Fetching last active repo...');
-        const lastRepo = await getLastActiveRepo(token);
-        console.log('Last Active Repo:', lastRepo);
+        console.log('Reading resume PDF...');
+        const resumePath = path.join(__dirname, '../../resume.pdf');
+        let resumeBase64 = '';
+        try {
+            const resumeBuffer = fs.readFileSync(resumePath);
+            resumeBase64 = resumeBuffer.toString('base64');
+            console.log(`Resume PDF loaded (${resumeBase64.length} base64 chars)`);
+        } catch (err) {
+            console.warn('Could not read resume PDF, proceeding without it:', err.message);
+        }
 
-        const aiData = await generateSummary(activityLog, lastRepo);
+        console.log('Generating AI summary...');
+        const aiData = await generateSummary(activityLog, allRepos, readmeMap, resumeBase64);
 
         if (!aiData) {
             console.log('No AI generation produced. Skipping.');
             return;
         }
 
-        const { bio, tech_stack } = aiData;
+        const { bio, tech_stack, banner } = aiData;
         console.log('Generated Bio:', bio);
         console.log('Generated Stack:', tech_stack);
+        console.log('Generated Banner:', banner);
 
-        // Update README
         const readmePath = path.join(__dirname, '../../README.md');
         let readmeContent = fs.readFileSync(readmePath, 'utf8');
 
-        // 1. Update Bio
         const bioStart = '<!-- AI-SUMMARY:START -->';
         const bioEnd = '<!-- AI-SUMMARY:END -->';
         const newBioSection = `${bioStart}\n${bio}\n${bioEnd}`;
@@ -282,7 +399,6 @@ async function main() {
             console.log('AI Summary markers not found.');
         }
 
-        // 2. Update Tech Stack
         const stackStart = '<!-- AI-STACK:START -->';
         const stackEnd = '<!-- AI-STACK:END -->';
         const newStackSection = `${stackStart}\n${tech_stack}\n${stackEnd}`;
@@ -294,14 +410,25 @@ async function main() {
             console.log('Stack markers not found in README.');
         }
 
+        const bannerStart = '<!-- AI-BANNER:START -->';
+        const bannerEnd = '<!-- AI-BANNER:END -->';
+        const bannerContent = banner ? `> ${banner}` : '';
+        const newBannerSection = `${bannerStart}\n${bannerContent}\n${bannerEnd}`;
+
+        const bannerRegex = new RegExp(`${bannerStart}[\\s\\S]*?${bannerEnd}`);
+        if (readmeContent.match(bannerRegex)) {
+            readmeContent = readmeContent.replace(bannerRegex, newBannerSection);
+        } else {
+            console.log('Banner markers not found in README.');
+        }
+
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('README updated successfully with Bio and Stack.');
+        console.log('README updated successfully with Bio, Stack, and Banner.');
 
     } catch (error) {
         console.error('Error:', error.message);
         process.exit(1);
     }
 }
-
 
 main();

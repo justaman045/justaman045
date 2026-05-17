@@ -18,6 +18,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - uses: actions/checkout@v4
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -26,7 +27,7 @@ jobs:
 
 
       - name: push snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
