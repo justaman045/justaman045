@@ -187,7 +187,7 @@ TASK: Generate a JSON object with exactly three fields: "bio", "tech_stack", and
 1. "bio": A dynamic, engaging professional introduction (2-3 sentences).
    - First, deeply understand my full career story from the attached resume.
    - Then contextualize it with my actual projects and recent activity.
-   - Reflect my professional identity (QA Automation Engineer transitioning toward Full Stack Development).
+    - Derive my professional identity entirely from the attached resume — extract roles, career story, and positioning from the PDF, not from assumptions.
    - Reference specific projects or technologies from the repo catalog when relevant.
    - Mention recent activity to show I'm actively building.
    - TONE: Energetic, professional, driven. First person ("I").
