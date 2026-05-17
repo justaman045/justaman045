@@ -228,7 +228,7 @@ Return ONLY valid JSON.`;
     const payload = {
         contents: [{ parts }],
         generationConfig: {
-            maxOutputTokens: 2500,
+            maxOutputTokens: 8192,
         }
     };
 
