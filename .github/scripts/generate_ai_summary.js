@@ -165,10 +165,17 @@ async function generateSummary(activityLog, repos, readmeMap, resumeBase64) {
         ? '\n[Could not fetch repository catalog — API may be rate-limited]'
         : '';
 
+    const platformConfig = `
+KNOWN PLATFORMS (use these for generating social links):
+- X/Twitter: @justaman045
+- Dev.to: dev.to/justaman045
+- Hashnode: justaman045.hashnode.dev
+`;
+
     const prompt = `You are managing the "About Me" and "Tech Stack" sections for my GitHub Profile ("${GITHUB_USERNAME}").
 
 MY RESUME (attached PDF):
-My complete professional resume is attached as a PDF. Extract all details from it — my career goals, skills, experience, education, certifications, and everything else.
+My complete professional resume is attached as a PDF. Extract all details from it — my career goals, skills, experience, education, certifications, LinkedIn URL, portfolio URL, and everything else.
 
 MY FULL REPOSITORY CATALOG (all my projects, including private ones):
 | Repo | Description | Language | Stars | Created |
@@ -181,16 +188,24 @@ ${readmeSection || '(No READMEs fetched)'}
 
 RECENT GITHUB ACTIVITY (last ~100 events):
 ${activityText}
+${platformConfig}
+TASK: Generate a JSON object with exactly eight fields: "name", "header", "role", "bio", "tech_stack", "banner", "project", and "connect".
 
-TASK: Generate a JSON object with exactly four fields: "header", "bio", "tech_stack", and "banner".
+1. "name": My full name derived from the resume.
+   - Format: just the name, no extra text.
+   - Example: "Aman"
 
-1. "header": A 1-line subtitle with my role titles derived from the resume.
+2. "header": A 1-line subtitle with my role titles derived from the resume.
    - Format: 👨‍💻 {Primary Role} | 🚀 {Secondary Role or Aspiration}
    - Extract the roles from the attached resume.
    - If the resume mentions multiple distinct roles, reflect the top two.
    - Example: "👨‍💻 SDET | 🚀 Full Stack Developer"
 
-2. "bio": A dynamic, engaging professional introduction (2-3 sentences).
+3. "role": My current role title and company, derived from the resume.
+   - Format: **{Title} @ {Company}**
+   - Example: **SDET @ Infosys**
+
+4. "bio": A dynamic, engaging professional introduction (2-3 sentences).
    - First, deeply understand my full career story from the attached resume.
    - Then contextualize it with my actual projects and recent activity.
    - Derive my professional identity entirely from the attached resume — extract roles, career story, and positioning from the PDF, not from assumptions.
@@ -198,7 +213,7 @@ TASK: Generate a JSON object with exactly four fields: "header", "bio", "tech_st
    - Mention recent activity to show I'm actively building.
    - TONE: Energetic, professional, driven. First person ("I").
 
-3. "tech_stack": A Markdown list of my technology stack.
+5. "tech_stack": A Markdown list of my technology stack.
    - Format exactly like this:
      - **Core Stack:** [Badges for my primary professional skills from my resume]
      - **Focus:** [One sentence summarizing my main professional focus]
@@ -206,18 +221,34 @@ TASK: Generate a JSON object with exactly four fields: "header", "bio", "tech_st
    - Use "for-the-badge" style shields.io badge images.
    - Include languages and frameworks from both my resume AND my actual repos.
 
-4. "banner": A 1-line professional callout about my current availability.
+6. "banner": A 1-line professional callout about my current availability.
    - Reflect my current job-seeking status from the resume and recent activity.
    - Mention specific roles I am targeting.
    - Keep it to 1-2 lines, Markdown bold.
    - If I'm not actively seeking, set to empty string.
 
+7. "project": A highlight of my top project from the repo catalog.
+   - Pick the most impressive or recently active project from the repo catalog.
+   - Format: ### 👉 [{Name}]({url})
+   - Followed by a short description line.
+   - If the repo has a README, use that for context.
+
+8. "connect": A Markdown list of my social/contact links.
+   - Include LinkedIn and portfolio from my resume if present.
+   - Include the platforms listed in KNOWN PLATFORMS above.
+   - Use icons where appropriate (💼 for LinkedIn, 🐦 for X/Twitter, etc.)
+   - Format: - {icon} **{Platform}:** [{url}]({url})
+
 OUTPUT FORMAT:
 {
+  "name": "...",
   "header": "...",
+  "role": "...",
   "bio": "...",
   "tech_stack": "...",
-  "banner": "... or empty string"
+  "banner": "... or empty string",
+  "project": "...",
+  "connect": "..."
 }
 Return ONLY valid JSON.`;
 
@@ -287,6 +318,22 @@ async function clearSummary() {
     const headerEnd = '<!-- AI-HEADER:END -->';
     const newHeaderSection = `${headerStart}\n${headerEnd}`;
 
+    const nameStart = '<!-- AI-NAME:START -->';
+    const nameEnd = '<!-- AI-NAME:END -->';
+    const newNameSection = `${nameStart}\n${nameEnd}`;
+
+    const roleStart = '<!-- AI-ROLE:START -->';
+    const roleEnd = '<!-- AI-ROLE:END -->';
+    const newRoleSection = `${roleStart}\n${roleEnd}`;
+
+    const projectStart = '<!-- AI-PROJECT:START -->';
+    const projectEnd = '<!-- AI-PROJECT:END -->';
+    const newProjectSection = `${projectStart}\n${projectEnd}`;
+
+    const connectStart = '<!-- AI-CONNECT:START -->';
+    const connectEnd = '<!-- AI-CONNECT:END -->';
+    const newConnectSection = `${connectStart}\n${connectEnd}`;
+
     let updated = false;
 
     const bioRegex = new RegExp(`${bioStart}[\\s\\S]*?${bioEnd}`);
@@ -325,11 +372,47 @@ async function clearSummary() {
         }
     }
 
+    const nameRegex = new RegExp(`${nameStart}[\\s\\S]*?${nameEnd}`);
+    if (readmeContent.match(nameRegex)) {
+        const currentContent = readmeContent.match(nameRegex)[0];
+        if (currentContent.trim() !== newNameSection.trim()) {
+            readmeContent = readmeContent.replace(nameRegex, newNameSection);
+            updated = true;
+        }
+    }
+
+    const roleRegex = new RegExp(`${roleStart}[\\s\\S]*?${roleEnd}`);
+    if (readmeContent.match(roleRegex)) {
+        const currentContent = readmeContent.match(roleRegex)[0];
+        if (currentContent.trim() !== newRoleSection.trim()) {
+            readmeContent = readmeContent.replace(roleRegex, newRoleSection);
+            updated = true;
+        }
+    }
+
+    const projectRegex = new RegExp(`${projectStart}[\\s\\S]*?${projectEnd}`);
+    if (readmeContent.match(projectRegex)) {
+        const currentContent = readmeContent.match(projectRegex)[0];
+        if (currentContent.trim() !== newProjectSection.trim()) {
+            readmeContent = readmeContent.replace(projectRegex, newProjectSection);
+            updated = true;
+        }
+    }
+
+    const connectRegex = new RegExp(`${connectStart}[\\s\\S]*?${connectEnd}`);
+    if (readmeContent.match(connectRegex)) {
+        const currentContent = readmeContent.match(connectRegex)[0];
+        if (currentContent.trim() !== newConnectSection.trim()) {
+            readmeContent = readmeContent.replace(connectRegex, newConnectSection);
+            updated = true;
+        }
+    }
+
     if (updated) {
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('Cleared AI header, summary, stack, and banner from README (No API Key provided).');
+        console.log('Cleared all AI sections from README (No API Key provided).');
     } else {
-        console.log('AI header, summary, stack, and banner sections are already empty.');
+        console.log('All AI sections are already empty.');
     }
 }
 
@@ -400,11 +483,15 @@ async function main() {
             return;
         }
 
-        const { header, bio, tech_stack, banner } = aiData;
+        const { name, header, role, bio, tech_stack, banner, project, connect } = aiData;
+        console.log('Generated Name:', name);
         console.log('Generated Header:', header);
+        console.log('Generated Role:', role);
         console.log('Generated Bio:', bio);
         console.log('Generated Stack:', tech_stack);
         console.log('Generated Banner:', banner);
+        console.log('Generated Project:', project);
+        console.log('Generated Connect:', connect);
 
         const readmePath = path.join(__dirname, '../../README.md');
         let readmeContent = fs.readFileSync(readmePath, 'utf8');
@@ -443,6 +530,28 @@ async function main() {
             console.log('Banner markers not found in README.');
         }
 
+        const nameStart = '<!-- AI-NAME:START -->';
+        const nameEnd = '<!-- AI-NAME:END -->';
+        const newNameSection = `${nameStart}\n# Hi there, I'm ${name} 👋\n${nameEnd}`;
+
+        const nameRegex = new RegExp(`${nameStart}[\\s\\S]*?${nameEnd}`);
+        if (readmeContent.match(nameRegex)) {
+            readmeContent = readmeContent.replace(nameRegex, newNameSection);
+        } else {
+            console.log('Name markers not found in README.');
+        }
+
+        const roleStart = '<!-- AI-ROLE:START -->';
+        const roleEnd = '<!-- AI-ROLE:END -->';
+        const newRoleSection = `${roleStart}\n${role}\n${roleEnd}`;
+
+        const roleRegex = new RegExp(`${roleStart}[\\s\\S]*?${roleEnd}`);
+        if (readmeContent.match(roleRegex)) {
+            readmeContent = readmeContent.replace(roleRegex, newRoleSection);
+        } else {
+            console.log('Role markers not found in README.');
+        }
+
         const headerStart = '<!-- AI-HEADER:START -->';
         const headerEnd = '<!-- AI-HEADER:END -->';
         const newHeaderSection = `${headerStart}\n### ${header}\n${headerEnd}`;
@@ -454,8 +563,30 @@ async function main() {
             console.log('Header markers not found in README.');
         }
 
+        const projectStart = '<!-- AI-PROJECT:START -->';
+        const projectEnd = '<!-- AI-PROJECT:END -->';
+        const newProjectSection = `${projectStart}\n${project}\n${projectEnd}`;
+
+        const projectRegex = new RegExp(`${projectStart}[\\s\\S]*?${projectEnd}`);
+        if (readmeContent.match(projectRegex)) {
+            readmeContent = readmeContent.replace(projectRegex, newProjectSection);
+        } else {
+            console.log('Project markers not found in README.');
+        }
+
+        const connectStart = '<!-- AI-CONNECT:START -->';
+        const connectEnd = '<!-- AI-CONNECT:END -->';
+        const newConnectSection = `${connectStart}\n${connect}\n${connectEnd}`;
+
+        const connectRegex = new RegExp(`${connectStart}[\\s\\S]*?${connectEnd}`);
+        if (readmeContent.match(connectRegex)) {
+            readmeContent = readmeContent.replace(connectRegex, newConnectSection);
+        } else {
+            console.log('Connect markers not found in README.');
+        }
+
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('README updated successfully with Header, Bio, Stack, and Banner.');
+        console.log('README updated successfully with Name, Header, Role, Bio, Stack, Banner, Project, and Connect.');
 
     } catch (error) {
         console.error('Error:', error.message);

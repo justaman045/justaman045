@@ -1,4 +1,6 @@
+<!-- AI-NAME:START -->
 # Hi there, I'm Aman 👋
+<!-- AI-NAME:END -->
 
 <!-- AI-HEADER:START -->
 ### 👨‍💻 QA Automation Engineer | 🚀 Aspiring Full Stack Developer
@@ -14,7 +16,9 @@ As a QA Automation Engineer at Infosys, I'm actively channeling my drive to mast
 
 ## 💼 Professional Experience
 
+<!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys**  
+<!-- AI-ROLE:END -->
 *Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 22 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
@@ -31,37 +35,14 @@ As a QA Automation Engineer at Infosys, I'm actively channeling my drive to mast
 
 ---
 
-## 🚀 Developer Aspirations
-
-Beyond testing, I am deeply interested in building products. I am actively transitioning into a developer role and have hands-on experience with:
-
-- **Backend:**
-  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=white) 
-  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) 
-  ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) 
-  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-- **Frontend:**
-  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-- **Mobile:**
-  ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
-
-I love learning new technologies and am always open to upskilling to meet project needs.
-
----
-
-## 🛠 Projects & Waitlist
-
-I build cool things! Check out my upcoming projects and join the waitlist:
-
+<!-- AI-PROJECT:START -->
 ### 👉 [ProjektNotify](https://projektnotify.vercel.app)
 *A platform to track ideas, share early access, and build in public.*
+<!-- AI-PROJECT:END -->
 
 ---
 
 ## 📈 Top Repositories
-
-I contribute to open source and build personal projects. Here are my top contributions:
 
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
@@ -71,9 +52,6 @@ I contribute to open source and build personal projects. Here are my top contrib
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 13, 2026 |
 
 <!-- RECENT-REPOS:END -->
-
-*(Note: These will update automatically)*
-
 ---
 
 ## 📊 Programming Stats
@@ -92,8 +70,6 @@ No activity tracked
 
 ## 📝 Latest Blog Posts
 
-I write about what I learn on **[Dev.to](https://dev.to/justaman045)** and **[Hashnode](https://justaman045.hashnode.dev/)**.
-
 <!-- BLOG-POST-LIST:START -->
 - [Test Post - Direct API Test](https://dev.to/justaman045/test-post-direct-api-test-9k3)
 - [Simple C programs with outputs to learn C](https://dev.to/justaman045/simple-c-programs-with-outputs-to-learn-c-19dg)
@@ -104,13 +80,13 @@ I write about what I learn on **[Dev.to](https://dev.to/justaman045)** and **[Ha
 
 ---
 
-## 🌐 Connect with Me
-
+<!-- AI-CONNECT:START -->
 - 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045/) *(Professional Profile)*
 - 🐦 **X (Twitter):** [@justaman045](https://x.com/justaman045)
 - 🌍 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app/)
 - 💻 **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
 - ✍️ **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev/)
+<!-- AI-CONNECT:END -->
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
 
