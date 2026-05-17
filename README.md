@@ -1,6 +1,8 @@
 # Hi there, I'm Aman 👋
 
+<!-- AI-HEADER:START -->
 ### 👨‍💻 QA Automation Engineer | 🚀 Aspiring Full Stack Developer
+<!-- AI-HEADER:END -->
 
 
 

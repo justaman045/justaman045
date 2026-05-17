@@ -182,17 +182,23 @@ ${readmeSection || '(No READMEs fetched)'}
 RECENT GITHUB ACTIVITY (last ~100 events):
 ${activityText}
 
-TASK: Generate a JSON object with exactly three fields: "bio", "tech_stack", and "banner".
+TASK: Generate a JSON object with exactly four fields: "header", "bio", "tech_stack", and "banner".
 
-1. "bio": A dynamic, engaging professional introduction (2-3 sentences).
+1. "header": A 1-line subtitle with my role titles derived from the resume.
+   - Format: 👨‍💻 {Primary Role} | 🚀 {Secondary Role or Aspiration}
+   - Extract the roles from the attached resume.
+   - If the resume mentions multiple distinct roles, reflect the top two.
+   - Example: "👨‍💻 SDET | 🚀 Full Stack Developer"
+
+2. "bio": A dynamic, engaging professional introduction (2-3 sentences).
    - First, deeply understand my full career story from the attached resume.
    - Then contextualize it with my actual projects and recent activity.
-    - Derive my professional identity entirely from the attached resume — extract roles, career story, and positioning from the PDF, not from assumptions.
+   - Derive my professional identity entirely from the attached resume — extract roles, career story, and positioning from the PDF, not from assumptions.
    - Reference specific projects or technologies from the repo catalog when relevant.
    - Mention recent activity to show I'm actively building.
    - TONE: Energetic, professional, driven. First person ("I").
 
-2. "tech_stack": A Markdown list of my technology stack.
+3. "tech_stack": A Markdown list of my technology stack.
    - Format exactly like this:
      - **Core Stack:** [Badges for my primary professional skills from my resume]
      - **Focus:** [One sentence summarizing my main professional focus]
@@ -200,7 +206,7 @@ TASK: Generate a JSON object with exactly three fields: "bio", "tech_stack", and
    - Use "for-the-badge" style shields.io badge images.
    - Include languages and frameworks from both my resume AND my actual repos.
 
-3. "banner": A 1-line professional callout about my current availability.
+4. "banner": A 1-line professional callout about my current availability.
    - Reflect my current job-seeking status from the resume and recent activity.
    - Mention specific roles I am targeting.
    - Keep it to 1-2 lines, Markdown bold.
@@ -208,6 +214,7 @@ TASK: Generate a JSON object with exactly three fields: "bio", "tech_stack", and
 
 OUTPUT FORMAT:
 {
+  "header": "...",
   "bio": "...",
   "tech_stack": "...",
   "banner": "... or empty string"
@@ -276,6 +283,10 @@ async function clearSummary() {
     const bannerEnd = '<!-- AI-BANNER:END -->';
     const newBannerSection = `${bannerStart}\n${bannerEnd}`;
 
+    const headerStart = '<!-- AI-HEADER:START -->';
+    const headerEnd = '<!-- AI-HEADER:END -->';
+    const newHeaderSection = `${headerStart}\n${headerEnd}`;
+
     let updated = false;
 
     const bioRegex = new RegExp(`${bioStart}[\\s\\S]*?${bioEnd}`);
@@ -305,11 +316,20 @@ async function clearSummary() {
         }
     }
 
+    const headerRegex = new RegExp(`${headerStart}[\\s\\S]*?${headerEnd}`);
+    if (readmeContent.match(headerRegex)) {
+        const currentContent = readmeContent.match(headerRegex)[0];
+        if (currentContent.trim() !== newHeaderSection.trim()) {
+            readmeContent = readmeContent.replace(headerRegex, newHeaderSection);
+            updated = true;
+        }
+    }
+
     if (updated) {
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('Cleared AI summary, stack, and banner from README (No API Key provided).');
+        console.log('Cleared AI header, summary, stack, and banner from README (No API Key provided).');
     } else {
-        console.log('AI summary, stack, and banner sections are already empty.');
+        console.log('AI header, summary, stack, and banner sections are already empty.');
     }
 }
 
@@ -380,7 +400,8 @@ async function main() {
             return;
         }
 
-        const { bio, tech_stack, banner } = aiData;
+        const { header, bio, tech_stack, banner } = aiData;
+        console.log('Generated Header:', header);
         console.log('Generated Bio:', bio);
         console.log('Generated Stack:', tech_stack);
         console.log('Generated Banner:', banner);
@@ -422,8 +443,19 @@ async function main() {
             console.log('Banner markers not found in README.');
         }
 
+        const headerStart = '<!-- AI-HEADER:START -->';
+        const headerEnd = '<!-- AI-HEADER:END -->';
+        const newHeaderSection = `${headerStart}\n### ${header}\n${headerEnd}`;
+
+        const headerRegex = new RegExp(`${headerStart}[\\s\\S]*?${headerEnd}`);
+        if (readmeContent.match(headerRegex)) {
+            readmeContent = readmeContent.replace(headerRegex, newHeaderSection);
+        } else {
+            console.log('Header markers not found in README.');
+        }
+
         fs.writeFileSync(readmePath, readmeContent);
-        console.log('README updated successfully with Bio, Stack, and Banner.');
+        console.log('README updated successfully with Header, Bio, Stack, and Banner.');
 
     } catch (error) {
         console.error('Error:', error.message);
