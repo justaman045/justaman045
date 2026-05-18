@@ -9,7 +9,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-As a Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, I specialize in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. My expertise includes Java, Selenium, Appium, and REST Assured, with a strong focus on CI/CD integration and root cause analysis, leading to significant client recognition and promotions. Beyond my core QA role, I'm actively expanding my full-stack capabilities, demonstrated by projects like the AI-powered NextRound SaaS and the WealthSync Android app, and I'm continuously building new tools like my Job Application Tracker.
+As a Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, I specialize in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. My expertise includes Java, Selenium, Appium, and REST Assured, with a strong focus on CI/CD integration and root cause analysis, leading to significant client recognition and promotions. Beyond my core QA role, I'm actively expanding my full-stack capabilities, demonstrated by projects like the AI-powered NextRound SaaS and the WealthSync Android app, and I'm continuously building new tools like my Job Application Tracker, reflecting my passion for impactful development.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -19,7 +19,7 @@ As a Software Development Engineer in Test (SDET) with 4.5 years of experience a
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 22 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 23 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -28,7 +28,7 @@ As a Software Development Engineer in Test (SDET) with 4.5 years of experience a
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> 📢 **Actively looking for new opportunities!** Open to **Senior QA Automation** or **Full Stack Development** roles.
+> 📢 **Actively looking for new opportunities!** Open to **Senior QA Automation** or **Full Stack Development** roles. Available for early release with a 90-day notice period.
 <!-- AI-BANNER:END -->
 
 ---
@@ -45,7 +45,7 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 17, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 18, 2026 |
 | **[Finance-Control](https://github.com/justaman045/Finance-Control)** | Advanced personal finance app built with Flutter. Features automated SMS transaction parsing, biomet... | May 16, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 13, 2026 |
 
@@ -83,12 +83,13 @@ YAML                       1 hr 8 mins     ▓░░░░░░░░░░░�
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045/)
-- 🌍 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app/)
-- 💻 **GitHub:** [github.com/justaman045](https://github.com/justaman045/)
-- 🐦 **X (Twitter):** [@justaman045](https://x.com/justaman045)
-- 📝 **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐙 **GitHub:** [justaman045](https://github.com/justaman045)
+- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
+- ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
+- 📰 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 📧 **Email:** [work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
 <!-- AI-CONNECT:END -->
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
