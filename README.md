@@ -57,13 +57,13 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 40 hrs 50 mins
+Total Time: 35 hrs 51 mins
 
-Python                     17 hrs 40 mins  ██████████▓░░░░░░░░░░░░░░   43.28 %
-Markdown                   8 hrs 55 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.84 %
-Dart                       6 hrs 56 mins   ████▒░░░░░░░░░░░░░░░░░░░░   17.00 %
-JavaScript                 2 hrs 58 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.30 %
-YAML                       1 hr 8 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.81 %
+Python       17 hrs 36 mins  ████████████▒░░░░░░░░░░░░   49.08 %
+Markdown     8 hrs 37 mins   ██████░░░░░░░░░░░░░░░░░░░   24.07 %
+Dart         6 hrs 51 mins   ████▓░░░░░░░░░░░░░░░░░░░░   19.10 %
+YAML         39 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.84 %
+JavaScript   28 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.31 %
 ```
 
 <!--END_SECTION:waka-->
