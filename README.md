@@ -19,7 +19,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-ROLE:START -->
 **Software Development Engineer in Test @ Infosys Limited**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 28 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 6 months, 29 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
@@ -45,7 +45,7 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 23, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 24, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 22, 2026 |
 | **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with Next.js 14, Supabase, Tailwind, and Resend. Creat... | May 22, 2026 |
 
