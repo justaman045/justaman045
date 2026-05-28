@@ -19,10 +19,10 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-ROLE:START -->
 **Software Development Engineer in Test @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 2 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 3 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 - **Focus:** Delivering high-quality software through automated testing and continuous integration across diverse platforms.
 - **Current Learning:** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 <!-- AI-STACK:END -->
@@ -45,8 +45,8 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 27, 2026 |
-| **[Agentic-TODO](https://github.com/justaman045/Agentic-TODO)** | No description | May 26, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 28, 2026 |
+| **[Agentic-TODO](https://github.com/justaman045/Agentic-TODO)** | No description | May 27, 2026 |
 | **[Assistant](https://github.com/justaman045/Assistant)** | No description | May 22, 2026 |
 
 <!-- RECENT-REPOS:END -->
@@ -79,13 +79,13 @@ No activity tracked
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
-- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🔗 **GitHub:** [justaman045](https://github.com/justaman045)
-- 📧 **Email:** [work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
-- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
-- ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [https://justaman045.vercel.app](https://justaman045.vercel.app)
+- 💻 **GitHub:** [https://github.com/justaman045](https://github.com/justaman045)
+- 🐦 **X/Twitter:** [https://x.com/justaman045](https://x.com/justaman045)
+- ✍️ **Dev.to:** [https://dev.to/justaman045](https://dev.to/justaman045)
+- 📝 **Hashnode:** [https://justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- ✉️ **Email:** [mailto:work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
 <!-- AI-CONNECT:END -->
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
