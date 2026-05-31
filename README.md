@@ -3,7 +3,7 @@
 <!-- AI-NAME:END -->
 
 <!-- AI-HEADER:START -->
-### 👨‍💻 SDET | 🚀 Aspiring Full Stack Developer
+### 👨‍💻 SDET | Full Stack Developer
 <!-- AI-HEADER:END -->
 
 
@@ -33,6 +33,31 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 
 ---
 
+## 🔧 Skills by Domain
+
+### QA Automation
+`Selenium WebDriver` `Appium` `REST Assured` `TestNG` `JUnit` `Cypress` `Playwright` `Jenkins` `Maven` `Gradle`
+
+### Full Stack Development
+`React` `Next.js` `TypeScript` `Node.js` `Python` `Django` `Flutter` `Dart` `Firebase` `Supabase` `Tailwind CSS`
+
+### Tools & Platforms
+`Git` `GitHub Actions` `Docker` `Kubernetes` `Apache Kafka` `Postman` `Jira` `Azure` `Cosmos DB`
+
+---
+
+## 🌟 Featured Projects
+
+| Project | What It Does | Stack |
+|---------|-------------|-------|
+| [**WealthSync (Finance-Control)**](https://github.com/justaman045/Finance-Control) | Personal finance app — SMS parsing, 24 asset types, AI-powered, offline-first | Flutter, Firebase, GetX |
+| [**Agentic-TODO**](https://github.com/justaman045/Agentic-TODO) | AI task manager with habit streaks, Pomodoro, recurring tasks, real-time sync | Flutter, Firebase, OpenRouter |
+| [**Assistant**](https://github.com/justaman045/Assistant) | AI productivity SaaS — content creation, finance tracking, memory system | Next.js, Firebase, OpenRouter |
+| [**Nexus**](https://github.com/justaman045/company) | Software e-commerce — dual payments (Razorpay + Stripe), multi-currency | Next.js, Firebase, Tailwind v4 |
+| [**NextRound**](https://github.com/justaman045/NextRound) | AI resume builder — ATS scoring, LaTeX compilation, cover letters | Next.js, Firebase, OpenRouter |
+
+---
+
 <!-- AI-PROJECT:START -->
 ### 👉 [WealthSync (Finance-Control)](https://github.com/justaman045/Finance-Control)
 Your Pocket CFO — track expenses, build wealth, automate finances with privacy-first, AI-powered features for Android.
@@ -47,23 +72,9 @@ Your Pocket CFO — track expenses, build wealth, automate finances with privacy
 | :--- | :--- | :--- |
 | **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 31, 2026 |
 | **[Portfolio](https://github.com/justaman045/Portfolio)** | My personal developer portfolio built with Next.js 14 and TypeScript. Showcasing my projects and exp... | May 30, 2026 |
-| **[Agentic-TODO](https://github.com/justaman045/Agentic-TODO)** | No description | May 30, 2026 |
+| **[Agentic-TODO](https://github.com/justaman045/Agentic-TODO)** | AI-powered task manager for Android & iOS with smart scheduling, habit streaks, Pomodoro timer, rec... | May 30, 2026 |
 
 <!-- RECENT-REPOS:END -->
----
-
-## 📊 Programming Stats
-
-<!--START_SECTION:waka-->
-
-```txt
-Total Time: 0 secs
-
-No activity tracked
-```
-
-<!--END_SECTION:waka-->
-
 ---
 
 ## 📝 Latest Blog Posts
