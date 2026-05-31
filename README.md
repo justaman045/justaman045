@@ -50,10 +50,10 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 
 | Project | What It Does | Stack |
 |---------|-------------|-------|
-| [**WealthSync (Finance-Control)**](https://github.com/justaman045/Finance-Control) | Personal finance app — SMS parsing, 24 asset types, AI-powered, offline-first | Flutter, Firebase, GetX |
-| [**Agentic-TODO**](https://github.com/justaman045/Agentic-TODO) | AI task manager with habit streaks, Pomodoro, recurring tasks, real-time sync | Flutter, Firebase, OpenRouter |
-| [**Assistant**](https://github.com/justaman045/Assistant) | AI productivity SaaS — content creation, finance tracking, memory system | Next.js, Firebase, OpenRouter |
-| [**Nexus**](https://github.com/justaman045/company) | Software e-commerce — dual payments (Razorpay + Stripe), multi-currency | Next.js, Firebase, Tailwind v4 |
+| [**WealthSync**](https://github.com/justaman045/WealthSync) | Personal finance app — SMS parsing, 24 asset types, AI-powered, offline-first | Flutter, Firebase, GetX |
+| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with habit streaks, Pomodoro, recurring tasks, real-time sync | Flutter, Firebase, OpenRouter |
+| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | AI productivity SaaS — content creation, finance tracking, memory system | Next.js, Firebase, OpenRouter |
+| [**Nexus**](https://github.com/justaman045/Nexus) | Software e-commerce — dual payments (Razorpay + Stripe), multi-currency | Next.js, Firebase, Tailwind v4 |
 | [**NextRound**](https://github.com/justaman045/NextRound) | AI resume builder — ATS scoring, LaTeX compilation, cover letters | Next.js, Firebase, OpenRouter |
 
 ---
