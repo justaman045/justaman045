@@ -1,5 +1,5 @@
 <!-- AI-NAME:START -->
-# Hi there, I'm Aman 👋
+# Hi there, I'm Aman Ojha 👋
 <!-- AI-NAME:END -->
 
 <!-- AI-HEADER:START -->
@@ -9,7 +9,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, specializing in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. Beyond my core QA role, where I've achieved significant client recognition and multiple promotions, I am actively expanding my full-stack development capabilities, building innovative solutions like the AI-powered WealthSync Android app (`Finance-Control`) and a modern `Saas-Waitlist` with Next.js and Supabase. My recent activity, including contributions to projects like `Job-Application-tracker`, demonstrates my passion for impactful development and continuous learning, driving me towards full-stack opportunities.
+I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, specializing in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. Beyond my core QA role, where I've achieved significant client recognition and multiple promotions, I'm passionate about full-stack development, actively building innovative solutions like the AI-powered `WealthSync` Android app and the `NextRound` AI Resume Builder. My recent contributions to projects like `Nexus` and `SdetTracker` demonstrate my drive for impactful development and continuous learning.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -22,9 +22,9 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 *Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 6 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 - **Focus:** Architecting scalable test automation frameworks and delivering high-quality software through automated testing and continuous integration across diverse platforms.
-- **Current Learning:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) (also building AI-powered solutions)
+- **Current Learning:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-181818?style=for-the-badge&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
@@ -59,8 +59,8 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 ---
 
 <!-- AI-PROJECT:START -->
-### 👉 [WealthSync](https://github.com/justaman045/Finance-Control)
-Your Pocket CFO — track expenses, build wealth, automate finances.
+### 👉 [WealthSync](https://github.com/justaman045/WealthSync)
+**Your Pocket CFO** — track expenses, build wealth, automate finances
 <!-- AI-PROJECT:END -->
 
 ---
@@ -71,8 +71,8 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
 | **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | May 31, 2026 |
-| **[Job-Application-tracker](https://github.com/justaman045/Job-Application-tracker)** | Full-featured job application tracker with Kanban board, offer comparison engine, dark mode, PWA sup... | May 31, 2026 |
-| **[Saas-Waitlist](https://github.com/justaman045/Saas-Waitlist)** | A modern, reusable SaaS waitlist system built with Next.js 14, Supabase, Tailwind, and Resend. Creat... | May 31, 2026 |
+| **[SdetTracker](https://github.com/justaman045/SdetTracker)** | React + Vite learning progress tracker with daily logs, interview preparation modules, roadmaps, and... | May 31, 2026 |
+| **[JobTracker](https://github.com/justaman045/JobTracker)** | Full-featured job application tracker with Kanban board, offer comparison engine, dark mode, PWA sup... | May 31, 2026 |
 
 <!-- RECENT-REPOS:END -->
 ---
@@ -92,11 +92,10 @@ Your Pocket CFO — track expenses, build wealth, automate finances.
 <!-- AI-CONNECT:START -->
 - 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
 - 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐙 **GitHub:** [justaman045](https://github.com/justaman045)
-- 🐦 **X/Twitter:** [@justaman045](https://twitter.com/justaman045)
-- 📝 **Dev.to:** [justaman045](https://dev.to/justaman045)
+- 🔗 **GitHub:** [justaman045](https://github.com/justaman045)
+- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
+- 📝 **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
 - ✍️ **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
-- 📧 **Email:** [work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
 <!-- AI-CONNECT:END -->
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
