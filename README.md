@@ -19,7 +19,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 16 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 17 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
@@ -28,7 +28,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> 📢 **Actively looking for new opportunities!** Open to **Senior QA Automation Engineer, SDET, and Full Stack Developer** roles.
+> > 📢 **Actively looking for new opportunities!** Open to **Senior QA Automation Engineer, SDET, and Full Stack Developer** roles.
 <!-- AI-BANNER:END -->
 
 ---
@@ -70,9 +70,9 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 10, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 11, 2026 |
+| **[Nexus](https://github.com/justaman045/Nexus)** | Software e-commerce platform with dual payment gateways (Razorpay + Stripe), multi-currency support,... | Jun 10, 2026 |
 | **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX compilation pipeline, multiple templates, cover le... | Jun 5, 2026 |
-| **[Nexus](https://github.com/justaman045/Nexus)** | Software e-commerce platform with dual payment gateways (Razorpay + Stripe), multi-currency support,... | Jun 5, 2026 |
 
 <!-- RECENT-REPOS:END -->
 ---
@@ -90,11 +90,14 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
+- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
 - 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [x.com/justaman045](https://x.com/justaman045)
-- ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- 📚 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 🐙 **GitHub:** [justaman045](https://github.com/justaman045)
+- 📧 **Email:** [work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
+- 📞 **Phone:** [+91-8586047520](tel:+918586047520)
+- 🐦 **X/Twitter:** [@justaman045](https://twitter.com/justaman045)
+- ✍️ **Dev.to:** [justaman045](https://dev.to/justaman045)
+- 📰 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
