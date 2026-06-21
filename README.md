@@ -27,7 +27,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> 📢 **Actively looking for new opportunities! Open to Senior QA Automation Engineer, SDET, and Full Stack Developer roles. Available for early release (90-day notice).**
+> 📢 **Actively looking for new opportunities! Open to Senior QA Automation Engineer, SDET, or Full Stack Developer roles. Notice period: 90 days - Open to early release.**
 <!-- AI-BANNER:END -->
 
 ---
@@ -59,7 +59,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 
 <!-- AI-PROJECT:START -->
 ### 👉 [NextRound](https://github.com/justaman045/NextRound)
-AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-template support. Tailor resumes to job descriptions, generate cover letters, and export polished PDFs.
+AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-template support.
 <!-- AI-PROJECT:END -->
 
 ---
@@ -70,8 +70,9 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
 | **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 21, 2026 |
-| **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX compilation pipeline, multiple templates, cover le... | Jun 17, 2026 |
-| **[PersonalDashboard](https://github.com/justaman045/PersonalDashboard)** | Full-stack AI productivity SaaS — content creation, finance tracking, subscription manager, roleplay... | Jun 17, 2026 |
+| **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX compilation pipeline, multiple templates, cover le... | Jun 21, 2026 |
+| **[PersonalDashboard](https://github.com/justaman045/PersonalDashboard)** | Full-stack AI productivity SaaS — content creation, finance tracking, subscription manager, roleplay... | Jun 21, 2026 |
+
 <!-- RECENT-REPOS:END -->
 
 ---
@@ -91,9 +92,10 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 <!-- AI-CONNECT:START -->
 - 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
 - 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [twitter.com/justaman045](https://twitter.com/justaman045)
+- 🐦 **X (Twitter):** [x.com/justaman045](https://x.com/justaman045)
 - ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 📰 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 🐙 **GitHub:** [github.com/justaman045](https://github.com/justaman045)
 <!-- AI-CONNECT:END -->
 
 ---
