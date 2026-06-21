@@ -7,7 +7,6 @@
 <!-- AI-HEADER:END -->
 
 
-
 <!-- AI-SUMMARY:START -->
 I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, specializing in architecting scalable test automation frameworks across API, mobile, and desktop for enterprise retail and supply chain systems. I've been recognized by clients and promoted twice for accelerating test delivery and restoring full regression coverage across diverse projects. Beyond QA, I'm passionate about full-stack development, actively building innovative solutions like the AI-powered `WealthSync` Android app and `NextRound` AI Resume Builder, as evidenced by recent activity on projects like `NextRound`, `Nexus`, and `SdetTracker`.
 <!-- AI-SUMMARY:END -->
@@ -48,13 +47,13 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 
 ## 🌟 Featured Projects
 
-| Project | What It Does | Stack |
-|---------|-------------|-------|
-| [**WealthSync**](https://github.com/justaman045/WealthSync) | Personal finance app — SMS parsing, 24 asset types, AI-powered, offline-first | Flutter, Firebase, GetX |
-| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with habit streaks, Pomodoro, recurring tasks, real-time sync | Flutter, Firebase, OpenRouter |
-| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | AI productivity SaaS — content creation, finance tracking, memory system | Next.js, Firebase, OpenRouter |
-| [**Nexus**](https://github.com/justaman045/Nexus) | Software e-commerce — dual payments (Razorpay + Stripe), multi-currency | Next.js, Firebase, Tailwind v4 |
-| [**NextRound**](https://github.com/justaman045/NextRound) | AI resume builder — ATS scoring, LaTeX compilation, cover letters | Next.js, Firebase, OpenRouter |
+| Project | What It Does | Stack | Highlights |
+|---------|--------------|-------|------------|
+| [**WealthSync**](https://github.com/justaman045/WealthSync) | Personal finance app with automated SMS parsing, biometric security & AI insights | Flutter, Firebase, GetX | Most complete project • Real-world utility |
+| [**NextRound**](https://github.com/justaman045/NextRound) | AI-powered resume builder with ATS scoring, LaTeX compilation & cover letters | Next.js, Firebase, OpenRouter | Strong AI + Full-Stack project |
+| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | Full-stack AI productivity SaaS with memory system & roleplay chat | Next.js, Firebase, OpenRouter | Complex full-stack architecture |
+| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with habits, Pomodoro & recurring tasks | Flutter, Firebase, OpenRouter | Clean mobile + AI integration |
+| [**Nexus**](https://github.com/justaman045/Nexus) | E-commerce platform with dual payment gateways | Next.js, Firebase, Tailwind v4 | Production-style full-stack project |
 
 ---
 
@@ -73,8 +72,8 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 | **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 21, 2026 |
 | **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX compilation pipeline, multiple templates, cover le... | Jun 17, 2026 |
 | **[PersonalDashboard](https://github.com/justaman045/PersonalDashboard)** | Full-stack AI productivity SaaS — content creation, finance tracking, subscription manager, roleplay... | Jun 17, 2026 |
-
 <!-- RECENT-REPOS:END -->
+
 ---
 
 ## 📝 Latest Blog Posts
@@ -96,6 +95,14 @@ AI-powered resume builder with ATS scoring, LaTeX compilation, and multi-templat
 - ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
 - 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
+
+---
+
+## 🚀 What I'm Looking For
+
+I'm seeking opportunities where I can leverage my strong foundation in **test automation** while growing into **full-stack and AI-driven development**. I'm particularly interested in roles that allow me to build scalable systems, work with modern tech stacks, and contribute to meaningful products.
+
+---
 
 ![](https://komarev.com/ghpvc/?username=justaman045&color=blueviolet)
 
