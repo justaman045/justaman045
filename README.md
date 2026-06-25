@@ -8,7 +8,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, specializing in architecting scalable test automation frameworks across API, mobile, and desktop for enterprise retail and supply chain systems. I've been recognized by clients and promoted twice for accelerating test delivery and restoring full regression coverage across diverse projects. Beyond QA, I'm passionate about full-stack development, actively building innovative solutions like the AI-powered `WealthSync` Android app and `NextRound` AI Resume Builder, as evidenced by recent activity on projects like `NextRound`, `Nexus`, and `SdetTracker`.
+I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience at Infosys, specializing in architecting scalable test automation frameworks across API, mobile, and desktop for enterprise retail and supply chain systems. Beyond QA, I'm passionate about full-stack development, actively building innovative solutions like the AI-powered `WealthSync` Android app and `NextRound` AI Resume Builder. My recent activity on projects like `NextRound`, `Nexus`, and `SdetTracker` showcases my drive to constantly learn and build.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -18,7 +18,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 7 months, 30 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 8 months<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/Rest_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
@@ -27,7 +27,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> 📢 **Actively looking for new opportunities as a Senior QA Automation Engineer. Open to early release (90-day notice).**
+> 📢 **Actively looking for new opportunities as a Senior QA Automation Engineer. Open to early release.**
 <!-- AI-BANNER:END -->
 
 ---
@@ -58,8 +58,8 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 ---
 
 <!-- AI-PROJECT:START -->
-### 👉 [NextRound](https://github.com/justaman045/NextRound)
-> Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, and seamless integrations.
+### 👉 [WealthSync](https://github.com/justaman045/WealthSync)
+Privacy-first, AI-powered personal finance app with automated SMS parsing, biometric security, and comprehensive wealth tracking across 24 asset types.
 <!-- AI-PROJECT:END -->
 
 ---
@@ -69,9 +69,9 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 24, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Jun 25, 2026 |
+| **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX templates & GitHub integration | Jun 24, 2026 |
 | **[Nexus](https://github.com/justaman045/Nexus)** | Modern software marketplace with Razorpay + Stripe & admin portal | Jun 22, 2026 |
-| **[JobTracker](https://github.com/justaman045/JobTracker)** | Job application tracker with Kanban, offer comparison & PWA support | Jun 21, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
@@ -90,13 +90,12 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [https://www.linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
-- 🌐 **Portfolio:** [https://justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [https://x.com/justaman045](https://x.com/justaman045)
-- ✍️ **Dev.to:** [https://dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [https://justaman045.hashnode.dev](https://justaman045.hashnode.dev)
-- 🐙 **GitHub:** [https://github.com/justaman045](https://github.com/justaman045)
-- 📧 **Email:** [mailto:work.amanojha30@gmail.com](mailto:work.amanojha30@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐙 **GitHub:** [github.com/justaman045](https://github.com/justaman045)
+- 🐦 **X (Twitter):** [twitter.com/justaman045](https://twitter.com/justaman045)
+- ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
+- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
 
 ---
