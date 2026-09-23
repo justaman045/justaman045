@@ -18,16 +18,16 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 10 months, 28 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 10 months, 29 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/REST_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Log4j](https://img.shields.io/badge/Log4j-CC0000?style=for-the-badge&logoColor=white)
 - **Focus:** Architecting scalable test automation frameworks and delivering high-quality software through automated testing and continuous integration across diverse platforms, including enterprise retail and supply chain.
-- **Current Learning:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B6B?style=for-the-badge) ![Playwright](https://img.shields.io/badge/Playwright-212A32?style=for-the-badge&logo=playwright&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+- **Current Learning:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B6B?style=for-the-badge) ![Playwright](https://img.shields.io/badge/Playwright-212A32?style=for-the-badge&logo=playwright&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=for-the-badge&logo=qt&logoColor=white) ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay) ![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe) ![Shell Scripting](https://img.shields.io/badge/Shell_Scripting-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> **I'm available for new opportunities with a 90-day notice period and open to early release.**
+> **Actively seeking challenging SDET and Full Stack Developer roles, open to early release.**
 <!-- AI-BANNER:END -->
 
 ---
@@ -58,8 +58,8 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 ---
 
 <!-- AI-PROJECT:START -->
-### 👉 [Naukri-Profile-Updater](https://github.com/justaman045/Naukri-Profile-Updater)
-Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri profile — completely **headless** (no browser window, no Selenium, no Playwright). Everything runs over HTTP using Naukri's reverse-engineered internal services.
+### 👉 [WealthSync](https://github.com/justaman045/WealthSync)
+Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking, shipped to production.
 <!-- AI-PROJECT:END -->
 
 ---
@@ -69,7 +69,7 @@ Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri 
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Sep 22, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Sep 23, 2026 |
 | **[Naukri-Profile-Updater](https://github.com/justaman045/Naukri-Profile-Updater)** | Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri profile headlessly o... | Sep 21, 2026 |
 | **[WealthSync](https://github.com/justaman045/WealthSync)** | Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking | Sep 17, 2026 |
 
@@ -82,19 +82,20 @@ Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri 
 <!-- BLOG-POST-LIST:START -->
 - [Test Post - Direct API Test](https://dev.to/justaman045/test-post-direct-api-test-9k3)
 - [Simple C programs with outputs to learn C](https://dev.to/justaman045/simple-c-programs-with-outputs-to-learn-c-19dg)
-- [Top 5 Linux Distributions to use as Your Virtual Machine](https://dev.to/justaman045/top-5-linux-distributions-to-use-as-your-virtual-machine-k4n)
-- [5 Habits of a Good Programmer](https://dev.to/justaman045/5-habits-of-a-good-programmer-1ii9)
-- [Things I'll be focusing on in 2022](https://dev.to/justaman045/things-ill-be-focusing-on-in-2022-18f6)
+- [Simple C programs with outputs to learn C](https://justaman045.hashnode.dev/simple-c-programs-with-outputs-to-learn-c)
+- [Next.js and Tailwind CSS Setup Complete Guide (2024)](https://justaman045.hashnode.dev/nextjs-and-tailwind-css-setup-complete-guide-2024)
+- [How to use Google Sheets as a database for web applications?](https://justaman045.hashnode.dev/how-to-use-google-sheets-as-a-database-for-web-applications)
 <!-- BLOG-POST-LIST:END -->
 
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
-- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
-- 📝 **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- ✍️ **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [https://justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐦 **X/Twitter:** [https://twitter.com/justaman045](https://twitter.com/justaman045)
+- ✍️ **Dev.to:** [https://dev.to/justaman045](https://dev.to/justaman045)
+- 📝 **Hashnode:** [https://justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 🐙 **GitHub:** [https://github.com/justaman045](https://github.com/justaman045)
 <!-- AI-CONNECT:END -->
 
 ---
