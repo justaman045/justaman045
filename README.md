@@ -18,16 +18,16 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 11 months, 4 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 11 months, 5 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
-- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/REST_Assured-2E8B57?style=for-the-badge&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Log4j](https://img.shields.io/badge/Log4j-CC0000?style=for-the-badge&logoColor=white)
+- **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/REST_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Log4j](https://img.shields.io/badge/Log4j-CC0000?style=for-the-badge&logoColor=white)
 - **Focus:** Architecting scalable test automation frameworks and delivering high-quality software through automated testing and continuous integration across diverse platforms, including enterprise retail and supply chain.
-- **Current Learning:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B6B?style=for-the-badge) ![Playwright](https://img.shields.io/badge/Playwright-212A32?style=for-the-badge&logo=playwright&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+- **Current Learning:** ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![OpenRouter](https://img.shields.io/badge/OpenRouter-FF6B6B?style=for-the-badge) ![Playwright](https://img.shields.io/badge/Playwright-212A32?style=for-the-badge&logo=playwright&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> **Seeking new opportunities as a SDET, QA Automation Engineer, or Full Stack Developer. Open to early release (90-day notice).**
+> **Seeking challenging SDET, QA Automation Engineer, or Test Automation Specialist roles – open to early release!**
 <!-- AI-BANNER:END -->
 
 ---
@@ -59,7 +59,7 @@ I'm a results-driven Software Development Engineer in Test (SDET) with 4.5 years
 
 <!-- AI-PROJECT:START -->
 ### 👉 [NextRound](https://github.com/justaman045/NextRound)
-Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, and seamless integrations.
+AI-powered resume builder with ATS scoring, LaTeX templates & GitHub integration
 <!-- AI-PROJECT:END -->
 
 ---
@@ -69,7 +69,7 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Sep 29, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Sep 30, 2026 |
 | **[WealthSync](https://github.com/justaman045/WealthSync)** | Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking | Sep 27, 2026 |
 | **[Naukri-Profile-Updater](https://github.com/justaman045/Naukri-Profile-Updater)** | Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri profile headlessly o... | Sep 26, 2026 |
 
@@ -90,9 +90,9 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
-- 🔗 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
+- 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐦 **X/Twitter:** [twitter.com/justaman045](https://twitter.com/justaman045)
 - ✍️ **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
 - 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
