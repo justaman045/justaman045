@@ -18,7 +18,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 11 months, 10 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->4 years, 11 months, 11 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/REST_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Log4j](https://img.shields.io/badge/Log4j-CC0000?style=for-the-badge&logoColor=white)
@@ -69,7 +69,7 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Oct 5, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Oct 6, 2026 |
 | **[WealthSync](https://github.com/justaman045/WealthSync)** | Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking | Sep 27, 2026 |
 | **[Naukri-Profile-Updater](https://github.com/justaman045/Naukri-Profile-Updater)** | Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri profile headlessly o... | Sep 26, 2026 |
 
