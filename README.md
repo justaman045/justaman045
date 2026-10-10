@@ -16,7 +16,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 ## 💼 Professional Experience
 
 <!-- AI-ROLE:START -->
-**SDET @ Infosys Ltd.**
+**QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
 *Oct 2021 - Present* (<!-- DURATION:START -->4 years, 11 months, 15 days<!-- DURATION:END -->)
 
@@ -27,7 +27,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> **Actively seeking challenging SDET, QA Automation Engineer, or Full Stack Developer**
+> > **Actively seeking challenging SDET, QA Automation Engineer, or Full Stack Developer roles.**
 <!-- AI-BANNER:END -->
 
 ---
@@ -111,11 +111,12 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [https://www.linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
-- 🔗 **Portfolio:** [https://justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐦 **X/Twitter:** [https://x.com/justaman045](https://x.com/justaman045)
-- ✍️ **Dev.to:** [https://dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [https://justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
+- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
+- 💻 **GitHub:** [justaman045](https://github.com/justaman045)
+- 🐦 **X/Twitter:** [@justaman045](https://x.com/justaman045)
+- ✍️ **Dev.to:** [justaman045](https://dev.to/justaman045)
+- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
 
 ---
