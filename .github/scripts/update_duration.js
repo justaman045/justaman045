@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const startDate = new Date('2021-10-25T00:00:00Z');
+const startDate = new Date(process.env.EMPLOYMENT_START_DATE || '2021-10-25T00:00:00Z');
 const now = new Date();
 
 let years = now.getFullYear() - startDate.getFullYear();

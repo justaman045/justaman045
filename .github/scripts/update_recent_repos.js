@@ -33,10 +33,30 @@ function fetchData(url) {
     });
 }
 
+// Paginate through all repos owned by the user (oldest beyond the cap are dropped)
+async function fetchAllRepos() {
+    const repos = [];
+    const perPage = 100;
+    const maxRepos = 300;
+    for (let page = 1; page <= Math.ceil(maxRepos / perPage); page++) {
+        const batch = await fetchData(`https://api.github.com/users/${username}/repos?sort=pushed&per_page=${perPage}&page=${page}&type=owner`);
+        repos.push(...batch);
+        if (batch.length < perPage) break;
+    }
+    return repos;
+}
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+function formatUTCDate(iso) {
+    const d = new Date(iso);
+    return `${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}, ${d.getUTCFullYear()}`;
+}
+
 async function updateReadme() {
     try {
         console.log('Fetching repositories...');
-        const repos = await fetchData(`https://api.github.com/users/${username}/repos?sort=pushed&per_page=100&type=owner`); // NOTE: max 100 repos — oldest silently dropped if exceeded
+        const repos = await fetchAllRepos();
 
         // Filter out forks and get top 3 recently pushed
         const recentRepos = repos
@@ -56,7 +76,7 @@ async function updateReadme() {
         reposHtml += '| :--- | :--- | :--- |\n';
 
         recentRepos.forEach(repo => {
-            const date = new Date(repo.pushed_at).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            const date = formatUTCDate(repo.pushed_at);
             const desc = repo.description ? repo.description.slice(0, 100) + (repo.description.length > 100 ? '...' : '') : 'No description';
             reposHtml += `| **[${repo.name}](${repo.html_url})** | ${desc} | ${date} |\n`;
         });

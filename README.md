@@ -34,14 +34,17 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 
 ## 🔧 Skills by Domain
 
-### QA Automation
-`Selenium WebDriver` `Appium` `REST Assured` `TestNG` `JUnit` `Cypress` `Playwright` `Jenkins` `Maven` `Gradle`
+### QA Automation (Professional)
+`Java` `Selenium WebDriver` `Appium` `WinAppDriver` `REST Assured` `Postman` `TestNG` `JUnit` `Page Object Model` `Maven` `Jenkins` `GitHub Actions` `Apache Kafka` `Playwright` *(recently learned)*
 
-### Full Stack Development
-`React` `Next.js` `TypeScript` `Node.js` `Python` `Django` `Flutter` `Dart` `Firebase` `Supabase` `Tailwind CSS`
+### QA Engineering Practices (Professional)
+`STLC / SDLC` `Agile / Scrum` `Shift-Left Testing` `Data-Driven Testing` `Test Strategy & Planning` `Root Cause Analysis` `Functional / Regression / Smoke / Sanity / UAT Testing` `Test Data Management`
+
+### Full Stack Development (Personal Projects)
+`Next.js` `React` `TypeScript` `Node.js` `Python` `Flutter` `Dart` `Firebase` `Tailwind CSS`
 
 ### Tools & Platforms
-`Git` `GitHub Actions` `Docker` `Kubernetes` `Apache Kafka` `Postman` `Jira` `Azure` `Cosmos DB`
+`Git` `GitHub` `Jira` `Confluence` `SQL (MySQL / MS SQL Server)` `Azure` `Azure Cosmos DB` `Extent Reports` `Allure Reports` `Log4j`
 
 ---
 
@@ -49,11 +52,11 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 
 | Project | What It Does | Stack | Highlights |
 |---------|--------------|-------|------------|
-| [**WealthSync**](https://github.com/justaman045/WealthSync) | Personal finance app with automated SMS parsing, biometric security & AI insights | Flutter, Firebase, GetX | Most complete project • Real-world utility |
-| [**NextRound**](https://github.com/justaman045/NextRound) | AI-powered resume builder with ATS scoring, LaTeX compilation & cover letters | Next.js, Firebase, OpenRouter | Strong AI + Full-Stack project |
-| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | Full-stack AI productivity SaaS with memory system & roleplay chat | Next.js, Firebase, OpenRouter | Complex full-stack architecture |
-| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with habits, Pomodoro & recurring tasks | Flutter, Firebase, OpenRouter | Clean mobile + AI integration |
-| [**Nexus**](https://github.com/justaman045/Nexus) | E-commerce platform with dual payment gateways | Next.js, Firebase, Tailwind v4 | Production-style full-stack project |
+| [**WealthSync**](https://github.com/justaman045/WealthSync) | Privacy-first Android finance app — SMS auto-parsing (ML Kit OCR), 24 asset types, UPI payments & biometric lock | Flutter, Firebase, GetX, RevenueCat | Production build (v2.0.118) • Real-world utility |
+| [**NextRound**](https://github.com/justaman045/NextRound) | AI resume builder with ATS scoring, LaTeX templates, cover letters & GitHub/LinkedIn import | Next.js, Firebase, OpenRouter, Razorpay | Strong AI + Full-Stack project • Live demo |
+| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | Full-stack AI productivity SaaS with cross-feature memory system & roleplay chat | Next.js, Firebase, OpenRouter | Complex full-stack architecture |
+| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with smart scheduling, habit streaks, Pomodoro & recurring tasks | Flutter, Firebase, OpenRouter | Clean mobile + AI integration |
+| [**Nexus**](https://github.com/justaman045/Nexus) | Software marketplace with dual payments (Razorpay + Stripe), multi-currency & admin portal | Next.js, Firebase, Tailwind v4 | Production-style full-stack project |
 
 ---
 
@@ -81,10 +84,10 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 
 <!-- BLOG-POST-LIST:START -->
 - [Test Post - Direct API Test](https://dev.to/justaman045/test-post-direct-api-test-9k3)
-- [Simple C programs with outputs to learn C](https://dev.to/justaman045/simple-c-programs-with-outputs-to-learn-c-19dg)
 - [Simple C programs with outputs to learn C](https://justaman045.hashnode.dev/simple-c-programs-with-outputs-to-learn-c)
 - [Next.js and Tailwind CSS Setup Complete Guide (2024)](https://justaman045.hashnode.dev/nextjs-and-tailwind-css-setup-complete-guide-2024)
 - [How to use Google Sheets as a database for web applications?](https://justaman045.hashnode.dev/how-to-use-google-sheets-as-a-database-for-web-applications)
+- [How to read CSV with JavaScript?](https://justaman045.hashnode.dev/how-to-read-csv-with-javascript)
 <!-- BLOG-POST-LIST:END -->
 
 ---
@@ -102,7 +105,14 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 
 ## 🚀 What I'm Looking For
 
-I'm seeking opportunities where I can leverage my strong foundation in **test automation** while growing into **full-stack and AI-driven development**. I'm particularly interested in roles that allow me to build scalable systems, work with modern tech stacks, and contribute to meaningful products.
+I'm seeking **Senior SDET / QA Automation Engineer** roles where I can leverage my expertise in mobile (Appium), API (REST Assured), and UI (Selenium) test automation and framework design across the full STLC. I'm also open to full-stack and AI-driven development opportunities, backed by hands-on projects built with Next.js and Flutter.
+
+---
+
+## 📊 WakaTime Stats
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 

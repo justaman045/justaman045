@@ -9,6 +9,8 @@ const RSS_URLS = [
 ];
 const MAX_POSTS = 5;
 
+const FETCH_TIMEOUT_MS = 15000;
+
 // Helper to fetch data with User-Agent to avoid 403
 const fetch = (url) => {
     return new Promise((resolve, reject) => {
@@ -26,6 +28,9 @@ const fetch = (url) => {
                 status: res.statusCode,
                 text: () => data
             }));
+        });
+        req.setTimeout(FETCH_TIMEOUT_MS, () => {
+            req.destroy(new Error(`Request timed out after ${FETCH_TIMEOUT_MS}ms: ${url}`));
         });
         req.on('error', reject);
     });
@@ -71,8 +76,16 @@ async function getBlogPosts() {
         }
     }
 
-    // Sort by date desc and slice
+    // Deduplicate by normalized title (the same article is often published on both
+    // dev.to and hashnode under different URLs), then sort by date desc and slice.
+    const seen = new Set();
     return posts
+        .filter((post) => {
+            const key = post.title.replace(/\s+/g, ' ').trim().toLowerCase();
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        })
         .sort((a, b) => b.date - a.date)
         .slice(0, MAX_POSTS);
 }

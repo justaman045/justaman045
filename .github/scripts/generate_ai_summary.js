@@ -36,15 +36,22 @@ function getAuthHeaders(token) {
 
 async function getAllRepos(token) {
     const headers = getAuthHeaders(token);
-    const response = await fetch(
-        `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=100&type=owner&sort=updated`, // NOTE: max 100 repos — oldest silently dropped if exceeded
-        { headers }
-    );
-    if (!response.ok) {
-        console.warn(`Failed to fetch repos: HTTP ${response.status}`);
-        return [];
+    const repos = [];
+    const perPage = 100;
+    const maxRepos = 300;
+    for (let page = 1; page <= Math.ceil(maxRepos / perPage); page++) {
+        const response = await fetch(
+            `https://api.github.com/users/${GITHUB_USERNAME}/repos?per_page=${perPage}&page=${page}&type=owner&sort=updated`,
+            { headers }
+        );
+        if (!response.ok) {
+            console.warn(`Failed to fetch repos (page ${page}): HTTP ${response.status}`);
+            break;
+        }
+        const batch = await response.json();
+        repos.push(...batch);
+        if (batch.length < perPage) break;
     }
-    const repos = await response.json();
     return repos
         .filter(r => !r.fork)
         .map(r => ({
@@ -172,6 +179,11 @@ KNOWN PLATFORMS (use these for generating social links):
 - Hashnode: justaman045.hashnode.dev
 `;
 
+    const privacyConfig = `
+PRIVACY RULE:
+- Repos marked with '🔒' in the repository catalog are PRIVATE. NEVER mention, describe, reference, or hint at the existence or details (name, README content, URL) of any private repo in ANY output field. Only ever reference PUBLIC repositories.
+`;
+
     const prompt = `You are managing the "About Me" and "Tech Stack" sections for my GitHub Profile ("${GITHUB_USERNAME}").
 
 MY RESUME (attached PDF):
@@ -189,6 +201,7 @@ ${readmeSection || '(No READMEs fetched)'}
 RECENT GITHUB ACTIVITY (last ~100 events):
 ${activityText}
 ${platformConfig}
+${privacyConfig}
 TASK: Generate a JSON object with exactly eight fields: "name", "header", "role", "bio", "tech_stack", "banner", "project", and "connect".
 
 1. "name": My full name derived from the resume.
@@ -197,9 +210,8 @@ TASK: Generate a JSON object with exactly eight fields: "name", "header", "role"
 
 2. "header": A 1-line subtitle with my role titles derived from the resume.
    - Format: 👨‍💻 {Primary Role} | 🚀 {Secondary Role or Aspiration}
-   - Extract the roles from the attached resume.
-   - If the resume mentions multiple distinct roles, reflect the top two.
-   - Example: "👨‍💻 SDET | 🚀 Full Stack Developer"
+   - Derive both roles strictly from the resume headline/subtitle (e.g. "SDET" and "QA Automation Engineer"). Keep the professional identity first and unambiguous — never put personal-project tech (e.g. Flutter/Next.js) into the title.
+   - Example: "👨‍💻 SDET | 🚀 QA Automation Engineer"
 
 3. "role": My current role title and company, derived from the resume.
    - Format: **{Title} @ {Company}**
@@ -219,7 +231,8 @@ TASK: Generate a JSON object with exactly eight fields: "name", "header", "role"
      - **Focus:** [One sentence summarizing my main professional focus]
      - **Current Learning:** [Badges for technologies I'm learning or building with, based on repos + recent activity]
    - Use "for-the-badge" style shields.io badge images.
-   - Include languages and frameworks from both my resume AND my actual repos.
+   - CRITICAL: **Core Stack** must contain PROFESSIONAL QA/SDET skills ONLY (Java, Selenium WebDriver, Appium, WinAppDriver, REST Assured, Postman, TestNG, Maven, Jenkins, Apache Kafka, SQL, Azure, etc.) from the resume — never mix personal full-stack/mobile tech into Core Stack.
+   - **Current Learning** carries the personal/full-stack technologies evidenced by my repos and recent activity (e.g. TypeScript, Next.js, React, Flutter, Dart, Firebase, OpenRouter) and recently learned Playwright.
 
 6. "banner": A 1-line professional callout about my current availability.
    - Reflect my current job-seeking status from the resume and recent activity.
@@ -267,15 +280,19 @@ Return ONLY valid JSON.`;
         contents: [{ parts }],
         generationConfig: {
             maxOutputTokens: 8192,
+            responseMimeType: 'application/json',
         }
     };
 
-    const url = `${GEMINI_API_URL}?key=${apiKey}`;
+    const url = GEMINI_API_URL;
 
     try {
         const response = await fetch(url, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: {
+                'Content-Type': 'application/json',
+                'x-goog-api-key': apiKey
+            },
             body: JSON.stringify(payload)
         });
 
@@ -290,129 +307,11 @@ Return ONLY valid JSON.`;
         if (!rawText) return null;
 
         const cleanedText = rawText.replace(/```json/g, '').replace(/```/g, '').trim();
-        console.log('Raw Gemini Output:', cleanedText);
+        console.log(`Gemini output received (${cleanedText.length} chars).`);
         return JSON.parse(cleanedText);
     } catch (error) {
         console.error('Error with Gemini API:', error.message);
         return null;
-    }
-}
-
-async function clearSummary() {
-    const readmePath = path.join(__dirname, '../../README.md');
-    let readmeContent = fs.readFileSync(readmePath, 'utf8');
-
-    const bioStart = '<!-- AI-SUMMARY:START -->';
-    const bioEnd = '<!-- AI-SUMMARY:END -->';
-    const newBioSection = `${bioStart}\n${bioEnd}`;
-
-    const stackStart = '<!-- AI-STACK:START -->';
-    const stackEnd = '<!-- AI-STACK:END -->';
-    const newStackSection = `${stackStart}\n${stackEnd}`;
-
-    const bannerStart = '<!-- AI-BANNER:START -->';
-    const bannerEnd = '<!-- AI-BANNER:END -->';
-    const newBannerSection = `${bannerStart}\n${bannerEnd}`;
-
-    const headerStart = '<!-- AI-HEADER:START -->';
-    const headerEnd = '<!-- AI-HEADER:END -->';
-    const newHeaderSection = `${headerStart}\n${headerEnd}`;
-
-    const nameStart = '<!-- AI-NAME:START -->';
-    const nameEnd = '<!-- AI-NAME:END -->';
-    const newNameSection = `${nameStart}\n${nameEnd}`;
-
-    const roleStart = '<!-- AI-ROLE:START -->';
-    const roleEnd = '<!-- AI-ROLE:END -->';
-    const newRoleSection = `${roleStart}\n${roleEnd}`;
-
-    const projectStart = '<!-- AI-PROJECT:START -->';
-    const projectEnd = '<!-- AI-PROJECT:END -->';
-    const newProjectSection = `${projectStart}\n${projectEnd}`;
-
-    const connectStart = '<!-- AI-CONNECT:START -->';
-    const connectEnd = '<!-- AI-CONNECT:END -->';
-    const newConnectSection = `${connectStart}\n${connectEnd}`;
-
-    let updated = false;
-
-    const bioRegex = new RegExp(`${bioStart}[\\s\\S]*?${bioEnd}`);
-    if (readmeContent.match(bioRegex)) {
-        const currentContent = readmeContent.match(bioRegex)[0];
-        if (currentContent.trim() !== newBioSection.trim()) {
-            readmeContent = readmeContent.replace(bioRegex, newBioSection);
-            updated = true;
-        }
-    }
-
-    const stackRegex = new RegExp(`${stackStart}[\\s\\S]*?${stackEnd}`);
-    if (readmeContent.match(stackRegex)) {
-        const currentContent = readmeContent.match(stackRegex)[0];
-        if (currentContent.trim() !== newStackSection.trim()) {
-            readmeContent = readmeContent.replace(stackRegex, newStackSection);
-            updated = true;
-        }
-    }
-
-    const bannerRegex = new RegExp(`${bannerStart}[\\s\\S]*?${bannerEnd}`);
-    if (readmeContent.match(bannerRegex)) {
-        const currentContent = readmeContent.match(bannerRegex)[0];
-        if (currentContent.trim() !== newBannerSection.trim()) {
-            readmeContent = readmeContent.replace(bannerRegex, newBannerSection);
-            updated = true;
-        }
-    }
-
-    const headerRegex = new RegExp(`${headerStart}[\\s\\S]*?${headerEnd}`);
-    if (readmeContent.match(headerRegex)) {
-        const currentContent = readmeContent.match(headerRegex)[0];
-        if (currentContent.trim() !== newHeaderSection.trim()) {
-            readmeContent = readmeContent.replace(headerRegex, newHeaderSection);
-            updated = true;
-        }
-    }
-
-    const nameRegex = new RegExp(`${nameStart}[\\s\\S]*?${nameEnd}`);
-    if (readmeContent.match(nameRegex)) {
-        const currentContent = readmeContent.match(nameRegex)[0];
-        if (currentContent.trim() !== newNameSection.trim()) {
-            readmeContent = readmeContent.replace(nameRegex, newNameSection);
-            updated = true;
-        }
-    }
-
-    const roleRegex = new RegExp(`${roleStart}[\\s\\S]*?${roleEnd}`);
-    if (readmeContent.match(roleRegex)) {
-        const currentContent = readmeContent.match(roleRegex)[0];
-        if (currentContent.trim() !== newRoleSection.trim()) {
-            readmeContent = readmeContent.replace(roleRegex, newRoleSection);
-            updated = true;
-        }
-    }
-
-    const projectRegex = new RegExp(`${projectStart}[\\s\\S]*?${projectEnd}`);
-    if (readmeContent.match(projectRegex)) {
-        const currentContent = readmeContent.match(projectRegex)[0];
-        if (currentContent.trim() !== newProjectSection.trim()) {
-            readmeContent = readmeContent.replace(projectRegex, newProjectSection);
-            updated = true;
-        }
-    }
-
-    const connectRegex = new RegExp(`${connectStart}[\\s\\S]*?${connectEnd}`);
-    if (readmeContent.match(connectRegex)) {
-        const currentContent = readmeContent.match(connectRegex)[0];
-        if (currentContent.trim() !== newConnectSection.trim()) {
-            readmeContent = readmeContent.replace(connectRegex, newConnectSection);
-            updated = true;
-        }
-    }
-
-    if (updated) {
-        fs.writeFileSync(readmePath, readmeContent);
-        console.log('Cleared all AI sections from README (No API Key provided).');
-    } else {
-        console.log('All AI sections are already empty.');
     }
 }
 
@@ -428,8 +327,7 @@ function getRepoPriority(repo) {
 async function main() {
     try {
         if (!process.env.GEMINI_API_KEY) {
-            console.log('No GEMINI_API_KEY provided. Cleaning up...');
-            await clearSummary();
+            console.log('No GEMINI_API_KEY provided. Skipping AI summary generation (AI sections left untouched).');
             return;
         }
 
@@ -483,7 +381,15 @@ async function main() {
             return;
         }
 
-        const { name, header, role, bio, tech_stack, banner, project, connect } = aiData;
+        const aiFields = aiData;
+        // banner is intentionally optional (may be an empty string when not job-seeking)
+        const requiredFields = ['name', 'header', 'role', 'bio', 'tech_stack', 'project', 'connect'];
+        const missingFields = requiredFields.filter((f) => typeof aiFields[f] !== 'string' || aiFields[f].trim() === '');
+        if (missingFields.length > 0) {
+            console.log(`AI generation missing required field(s): ${missingFields.join(', ')}. Skipping write to avoid blanking sections.`);
+            return;
+        }
+        const { name, header, role, bio, tech_stack, banner, project, connect } = aiFields;
         console.log('Generated Name:', name);
         console.log('Generated Header:', header);
         console.log('Generated Role:', role);

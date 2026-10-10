@@ -1,4 +1,7 @@
 name: Update README
+concurrency:
+  group: readme-update
+  cancel-in-progress: false
 on:
   schedule:
     - cron: '0 1 * * *' # Runs daily at 01:00 UTC (06:30 IST)
@@ -29,6 +32,7 @@ jobs:
 
       - name: Generate AI Daily Summary
         run: node .github/scripts/generate_ai_summary.js
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
