@@ -3,7 +3,7 @@
 <!-- AI-NAME:END -->
 
 <!-- AI-HEADER:START -->
-### 👨‍💻 SDET | 🚀 Full Stack Developer
+### 👨‍💻 SDET | 🚀 QA Automation Engineer
 <!-- AI-HEADER:END -->
 
 
@@ -27,7 +27,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> **Actively seeking challenging SDET, QA Automation Engineer, or Full Stack Developer roles where I can leverage my expertise in automation, full-stack development, and AI solutions to drive impactful product innovation.**
+> **Actively seeking challenging SDET, QA Automation Engineer, or Full Stack Developer**
 <!-- AI-BANNER:END -->
 
 ---
@@ -93,12 +93,11 @@ Build ATS-optimized resumes in seconds with AI, professional LaTeX templates, an
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
-- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐙 **GitHub:** [justaman045](https://github.com/justaman045)
-- 🐦 **X (Twitter):** [@justaman045](https://twitter.com/justaman045)
-- ✍️ **Dev.to:** [justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
+- 🔗 **Portfolio:** [https://justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐦 **X/Twitter:** [https://x.com/justaman045](https://x.com/justaman045)
+- ✍️ **Dev.to:** [https://dev.to/justaman045](https://dev.to/justaman045)
+- 📝 **Hashnode:** [https://justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
 
 ---
