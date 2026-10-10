@@ -47,7 +47,7 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
 
       - name: Generate AI Daily Summary
-        if: ${{ inputs.run_ai != false }}
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.run_ai == false) }}
         run: node .github/scripts/generate_ai_summary.js
         continue-on-error: true
         env:
