@@ -63,11 +63,11 @@ async function getBlogPosts() {
                 const linkMatch = item.match(/<link>(.*?)<\/link>/);
                 const pubDateMatch = item.match(/<pubDate>(.*?)<\/pubDate>/);
 
-                if (titleMatch && linkMatch && pubDateMatch) {
+                if (titleMatch && linkMatch) {
                     posts.push({
                         title: titleMatch[1],
                         link: linkMatch[1],
-                        date: new Date(pubDateMatch[1])
+                        date: pubDateMatch ? new Date(pubDateMatch[1]) : new Date()
                     });
                 }
             }
@@ -124,7 +124,10 @@ async function main() {
         }
 
     } catch (error) {
-        console.error('Script failed:', error);
+        // Never destroy an existing section on failure: only a single atomic
+        // writeFileSync at the end mutates the file, so reaching here leaves the
+        // BLOG-POST-LIST section exactly as it was.
+        console.error('Script failed (blog section left unchanged):', error.message);
         process.exit(1);
     }
 }

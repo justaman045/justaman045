@@ -58,9 +58,9 @@ async function updateReadme() {
         console.log('Fetching repositories...');
         const repos = await fetchAllRepos();
 
-        // Filter out forks and get top 3 recently pushed
+        // Filter out forks and private repos, get top 3 recently pushed
         const recentRepos = repos
-            .filter(repo => !repo.fork)
+            .filter(repo => !repo.fork && !repo.private)
             .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
             .slice(0, 3);
 
@@ -99,7 +99,10 @@ async function updateReadme() {
         }
 
     } catch (error) {
-        console.error('Error updating properties:', error.message);
+        // Never destroy an existing section on failure: only a single atomic
+        // writeFileSync at the end mutates the file, so reaching here leaves the
+        // RECENT-REPOS section exactly as it was.
+        console.error('Error updating recent repos (section left unchanged):', error.message);
         process.exit(1);
     }
 }

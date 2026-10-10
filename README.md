@@ -48,15 +48,33 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 
 ---
 
-## 🌟 Featured Projects
+## 🎓 Education & Certifications
 
-| Project | What It Does | Stack | Highlights |
-|---------|--------------|-------|------------|
-| [**WealthSync**](https://github.com/justaman045/WealthSync) | Privacy-first Android finance app — SMS auto-parsing (ML Kit OCR), 24 asset types, UPI payments & biometric lock | Flutter, Firebase, GetX, RevenueCat | Production build (v2.0.118) • Real-world utility |
-| [**NextRound**](https://github.com/justaman045/NextRound) | AI resume builder with ATS scoring, LaTeX templates, cover letters & GitHub/LinkedIn import | Next.js, Firebase, OpenRouter, Razorpay | Strong AI + Full-Stack project • Live demo |
-| [**PersonalDashboard**](https://github.com/justaman045/PersonalDashboard) | Full-stack AI productivity SaaS with cross-feature memory system & roleplay chat | Next.js, Firebase, OpenRouter | Complex full-stack architecture |
-| [**Veltro**](https://github.com/justaman045/Veltro) | AI task manager with smart scheduling, habit streaks, Pomodoro & recurring tasks | Flutter, Firebase, OpenRouter | Clean mobile + AI integration |
-| [**Nexus**](https://github.com/justaman045/Nexus) | Software marketplace with dual payments (Razorpay + Stripe), multi-currency & admin portal | Next.js, Firebase, Tailwind v4 | Production-style full-stack project |
+### Education
+- **MCA** — Amity University (Online), 2021 – 2023
+- **BCA** — IMS Ghaziabad, 2018 – 2021
+
+### Courses & Certifications
+- Spring Boot API Development & Testing — REST Assured & Postman
+- Mobile Testing — Appium & Flutter (Android/iOS)
+
+---
+
+## 🌟 Top Projects
+
+*Automatically refreshed from my public GitHub repos.*
+
+<!-- TOP-PROJECTS:START -->
+| 🌟 Project | 📖 Description | ⭐ Stars | 🗒 Created |
+| :--- | :--- | :--- | :--- |
+| **[WealthSync](https://github.com/justaman045/WealthSync)** | Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking | 3 | 2025-11-07 |
+| **[reddit-saved-repost-recommender](https://github.com/justaman045/reddit-saved-repost-recommender)** | Reddit Saved re-Post Recommender — local-only Chrome MV3 extension that ranks your saved posts by en... | 0 | 2026-10-09 |
+| **[Naukri-Profile-Updater](https://github.com/justaman045/Naukri-Profile-Updater)** | Cross-platform desktop app (Windows/macOS/Linux) to view and update your Naukri profile headlessly o... | 0 | 2026-09-02 |
+| **[Nexus](https://github.com/justaman045/Nexus)** | Modern software marketplace with Razorpay + Stripe & admin portal | 0 | 2026-02-19 |
+| **[NextRound](https://github.com/justaman045/NextRound)** | AI-powered resume builder with ATS scoring, LaTeX templates & GitHub integration | 0 | 2026-01-24 |
+| **[JobTracker](https://github.com/justaman045/JobTracker)** | Job application tracker with Kanban, offer comparison & PWA support | 0 | 2026-05-11 |
+
+<!-- TOP-PROJECTS:END -->
 
 ---
 

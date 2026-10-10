@@ -14,6 +14,9 @@ jobs:
   update-readme:
     name: Update Readme with Wakatime Stats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
       - uses: athul/waka-readme@v0.3.1

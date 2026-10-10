@@ -172,8 +172,9 @@ async function generateSummary(activityLog, repos, readmeMap, resumeBase64) {
         ? '\n[Could not fetch repository catalog — API may be rate-limited]'
         : '';
 
-    const platformConfig = `
+const platformConfig = `
 KNOWN PLATFORMS (use these for generating social links):
+- GitHub: github.com/justaman045
 - X/Twitter: @justaman045
 - Dev.to: dev.to/justaman045
 - Hashnode: justaman045.hashnode.dev

@@ -1,0 +1,27 @@
+name: Guard checks
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  guard:
+    name: Script + README integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint Node scripts
+        run: |
+          for f in .github/scripts/*.js; do
+            node --check "$f"
+          done
+
+      - name: Lint workflow YAML
+        run: |
+          ruby -e 'Dir[".github/workflows/*.yml"].each { |f| require "yaml"; YAML.load_file(f); puts "OK #{f}" }'
+
+      - name: Verify README sections
+        run: node .github/scripts/check_markers.js
