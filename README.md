@@ -130,6 +130,17 @@ I'm seeking **Senior SDET / QA Automation Engineer** roles where I can leverage 
 ## 📊 WakaTime Stats
 
 <!--START_SECTION:waka-->
+
+```txt
+Total Time: 12 hrs 21 mins
+
+Java              7 hrs 45 mins   ███████████████▓░░░░░░░░░   62.78 %
+XML               2 hrs 47 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.52 %
+CSV               1 hr 5 mins     ██▒░░░░░░░░░░░░░░░░░░░░░░   08.80 %
+Properties        18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %
+Java Properties   12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.73 %
+```
+
 <!--END_SECTION:waka-->
 
 ---
