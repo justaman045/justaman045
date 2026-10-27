@@ -132,13 +132,13 @@ I'm seeking **Senior SDET / QA Automation Engineer** roles where I can leverage 
 <!--START_SECTION:waka-->
 
 ```txt
-Total Time: 2 hrs 31 mins
+Total Time: 3 hrs 34 mins
 
-Java Properties   1 hr 21 mins    █████████████▓░░░░░░░░░░░   54.06 %
-Java              47 mins         ███████▓░░░░░░░░░░░░░░░░░   31.26 %
-Properties        15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.03 %
-CSV               5 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 %
-Markdown          1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.98 %
+Java Properties   1 hr 23 mins    █████████▓░░░░░░░░░░░░░░░   39.13 %
+Java              1 hr 3 mins     ███████▒░░░░░░░░░░░░░░░░░   29.47 %
+XML               24 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.55 %
+Properties        24 mins         ███░░░░░░░░░░░░░░░░░░░░░░   11.37 %
+CSV               9 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.42 %
 ```
 
 <!--END_SECTION:waka-->
