@@ -8,7 +8,7 @@
 
 
 <!-- AI-SUMMARY:START -->
-I am a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience, specializing in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. I have a proven track record of delivering client-recognized unified frameworks, accelerating test delivery, and earning multiple promotions for consistent contributions across 5 project tracks at Infosys. Beyond professional automation, I actively build innovative full-stack and AI solutions like the WealthSync finance app and the NextRound AI-powered resume builder, showcasing my continuous learning and engagement across diverse tech stacks and actively contributing to Dev.to and Hashnode.
+I am a results-driven Software Development Engineer in Test (SDET) with 4.5 years of experience, specializing in architecting scalable test automation frameworks across API, mobile, and desktop domains for enterprise retail and supply chain systems. I have a proven track record of delivering client-recognized unified frameworks, accelerating test delivery, and earning multiple promotions for consistent contributions across 5 project tracks at Infosys. Beyond professional automation, I actively build innovative full-stack and AI solutions like the production-ready WealthSync finance app and the NextRound AI-powered resume builder, showcasing my continuous learning and engagement across diverse tech stacks and actively contributing to Dev.to and Hashnode.
 <!-- AI-SUMMARY:END -->
 
 ---
@@ -18,7 +18,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-ROLE:START -->
 **QA Automation Engineer @ Infosys Ltd.**
 <!-- AI-ROLE:END -->
-*Oct 2021 - Present* (<!-- DURATION:START -->5 years, 24 days<!-- DURATION:END -->)
+*Oct 2021 - Present* (<!-- DURATION:START -->5 years, 25 days<!-- DURATION:END -->)
 
 <!-- AI-STACK:START -->
 - **Core Stack:** ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium WebDriver](https://img.shields.io/badge/Selenium_WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Appium](https://img.shields.io/badge/Appium-5DADE2?style=for-the-badge&logo=appium&logoColor=white) ![WinAppDriver](https://img.shields.io/badge/WinAppDriver-0078D4?style=for-the-badge&logo=windows&logoColor=white) ![REST Assured](https://img.shields.io/badge/REST_Assured-2E8B57?style=for-the-badge&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-B31B1B?style=for-the-badge&logo=testng&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-2C526F?style=for-the-badge&logo=jenkins&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-232F3E?style=for-the-badge&logo=apache-kafka&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white) ![Log4j](https://img.shields.io/badge/Log4j-CC0000?style=for-the-badge&logoColor=white)
@@ -27,7 +27,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 <!-- AI-STACK:END -->
 
 <!-- AI-BANNER:START -->
-> **🚀 Open to early release (90-day notice period) for SDET, QA Automation Engineer, and Test Automation Specialist roles!**
+> **🎯 Seeking SDET and QA Automation Engineer roles. Open to early release.**
 <!-- AI-BANNER:END -->
 
 ---
@@ -80,7 +80,7 @@ I am a results-driven Software Development Engineer in Test (SDET) with 4.5 year
 
 <!-- AI-PROJECT:START -->
 ### 👉 [WealthSync](https://github.com/justaman045/WealthSync)
-Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking, your pocket CFO.
+Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking
 <!-- AI-PROJECT:END -->
 
 ---
@@ -90,9 +90,9 @@ Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking, your poc
 <!-- RECENT-REPOS:START -->
 | 📂 Repository | 📄 Description | 📅 Last Updated |
 | :--- | :--- | :--- |
+| **[WealthSync](https://github.com/justaman045/WealthSync)** | Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking | Nov 18, 2026 |
+| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Nov 18, 2026 |
 | **[Nexus](https://github.com/justaman045/Nexus)** | Modern software marketplace with Razorpay + Stripe & admin portal | Nov 17, 2026 |
-| **[justaman045](https://github.com/justaman045/justaman045)** | Personal profile README showcasing my work as an SDET (Java), cross-platform Flutter developer, and ... | Nov 17, 2026 |
-| **[SaaSWaitlist](https://github.com/justaman045/SaaSWaitlist)** | Discover, showcase, and join waitlists for upcoming SaaS products. A Next.js 16 + Firebase platform ... | Nov 17, 2026 |
 
 <!-- RECENT-REPOS:END -->
 
@@ -111,12 +111,12 @@ Privacy-first AI finance app with SMS auto-parsing & 24 asset tracking, your poc
 ---
 
 <!-- AI-CONNECT:START -->
-- 💼 **LinkedIn:** [linkedin.com/in/justaman045](https://www.linkedin.com/in/justaman045)
-- 🌐 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
-- 🐙 **GitHub:** [github.com/justaman045](https://github.com/justaman045)
-- 🐦 **X/Twitter:** [x.com/justaman045](https://x.com/justaman045)
+- 💼 **LinkedIn:** [justaman045](https://www.linkedin.com/in/justaman045)
+- 🔗 **Portfolio:** [justaman045.vercel.app](https://justaman045.vercel.app)
+- 🐙 **GitHub:** [justaman045](https://github.com/justaman045)
+- 🐦 **X/Twitter:** [@justaman045](https://twitter.com/justaman045)
 - 📝 **Dev.to:** [dev.to/justaman045](https://dev.to/justaman045)
-- 📝 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
+- 📰 **Hashnode:** [justaman045.hashnode.dev](https://justaman045.hashnode.dev)
 <!-- AI-CONNECT:END -->
 
 ---
